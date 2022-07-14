@@ -1,0 +1,670 @@
+@extends('main')
+@section('content')
+<div class="main-container">
+    <!--- Banner -->
+    <div class="inner-banner">
+        <div class="container">
+            <div class="inner-banner-container">
+                <h1>My Account</h1>
+            </div>
+        </div>
+    </div>
+    <!--- Banner -->
+    <div class="clearfix"></div>
+    <div class="myaccount-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex align-items-start  row">
+                        <div class="nav flex-column nav-pills myaccount-links col-md-4" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+                            <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                                aria-selected="true">Personal
+                                data</button>
+                            <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-profile" type="button" role="tab"
+                                aria-controls="v-pills-profile" aria-selected="false">Addresses</button>
+                            <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-messages" type="button" role="tab"
+                                aria-controls="v-pills-messages" aria-selected="false">Orders and billing</button>
+                            <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-settings" type="button" role="tab"
+                                aria-controls="v-pills-settings" aria-selected="false">Support</button>
+                        </div>
+                        <div class="tab-content col-md-8" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                                aria-labelledby="v-pills-home-tab">
+                                <div class="myaccount-card">
+                                    <p class="myaccount-label">FIRST NAME / LAST NAME</p>
+                                    <h5>James Anderson</h5>
+                                    <button class="btn-blue" data-bs-toggle="modal" data-bs-target="#changeName">CHANGE
+                                        NAME</button>
+                                </div>
+
+                                <div class="myaccount-card">
+                                    <p class="myaccount-label">EMAIL ADDRESS</p>
+                                    <h5>james.anderson@gmail.com</h5>
+                                    <button class="btn-blue">CHANGE
+                                        EMAIL</button>
+                                </div>
+
+                                <div class="myaccount-card">
+                                    <p class="myaccount-label">PASSWORD</p>
+                                    <h5>xxxxxxxxxxxx</h5>
+                                    <button class="btn-blue" data-bs-toggle="modal"
+                                        data-bs-target="#changePassword">CHANGE PASSWORD</button>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                aria-labelledby="v-pills-profile-tab">
+
+                                <div class="myaccount-card">
+                                    <p class="myaccount-label">SHIPPING ADDRESS</p>
+                                    <h5>James Anderson<br /> (562) 408-1865 15005<br /> Indiana Ave #5<br /> Los
+                                        Angeles,
+                                        California(CA),
+                                        90723</h5>
+                                    <button class="btn-blue" data-bs-toggle="modal"
+                                        data-bs-target="#change-shippingadd">CHANGE SHIPPING ADDRESS</button>
+                                </div>
+
+                                <div class="myaccount-card">
+                                    <p class="myaccount-label">BILLING ADDRESS</p>
+                                    <label for="sameadd" class="custom-checbox">
+                                        <input type="checkbox" id="sameadd" checked>
+                                        <span class="check-icon"><i class="fal fa-check"></i></span>
+                                        SAME AS SHIPPING ADDRESS
+                                    </label>
+                                    <h5>James Anderson<br /> (562) 408-1865 15005<br /> Indiana Ave #5<br /> Los
+                                        Angeles,
+                                        California(CA),
+                                        90723</h5>
+                                    <button class="btn-blue" data-bs-toggle="modal"
+                                        data-bs-target="#change-billingadd">CHANGE BILLING ADDRESS</button>
+                                </div>
+
+
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                                aria-labelledby="v-pills-messages-tab">
+
+                                <nav>
+                                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                        <a class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                                            href="#nav-home" role="tab" aria-controls="nav-home"
+                                            aria-selected="true">Order
+                                            history</a>
+                                        <a class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                                            href="#nav-profile" role="tab" aria-controls="nav-profile"
+                                            aria-selected="false">Billing</a>
+
+                                    </div>
+                                </nav>
+
+                                <div class="tab-content" id="nav-tabContent">
+                                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                                        aria-labelledby="nav-home-tab">
+                                        <div class="myaccount-card order-history-card-wrapper">
+                                            <div
+                                                class="d-flex justify-content-between align-items-center order-history-card">
+                                                <div class="order-history-card-left">
+                                                    <p class="order-history-number">Order no. 253992345</p>
+                                                    <p><em>Placed on June 5th, 2022, 2:37 AM</em></p>
+                                                </div>
+                                                <div class="order-history-card-right">
+                                                    <span class="order-history-status delivered">Delivered</span>
+                                                </div>
+                                            </div>
+
+                                            <div
+                                                class="d-flex justify-content-between align-items-center order-history-detail">
+                                                <div class="order-history-detail-left">
+                                                    <p>5 x system kits</p>
+                                                </div>
+                                                <div class="order-history-detail-right">
+                                                    <p>$745.00</p>
+                                                </div>
+
+                                            </div>
+
+                                            <div
+                                                class="d-flex justify-content-between align-items-center order-history-detail">
+                                                <div class="order-history-detail-left">
+                                                    <p>5 x deposits</p>
+                                                </div>
+                                                <div class="order-history-detail-right">
+                                                    <p>$2,500.00</p>
+                                                </div>
+
+                                            </div>
+                                            <p class="order-history-info">You will receive back the total deposit when
+                                                we
+                                                receive the hardware we
+                                                send you, in case of a subscription end on your behalf.</p>
+                                        </div>
+
+                                        <div class="myaccount-card order-history-card-wrapper">
+                                            <div
+                                                class="d-flex justify-content-between align-items-center order-history-card">
+                                                <div class="order-history-card-left">
+                                                    <p class="order-history-number">Order no. 253992345</p>
+                                                    <p><em>Placed on June 5th, 2022, 2:37 AM</em></p>
+                                                </div>
+                                                <div class="order-history-card-right">
+                                                    <span class="order-history-status order-placed">Order placed</span>
+                                                </div>
+                                            </div>
+
+                                            <div
+                                                class="d-flex justify-content-between align-items-center order-history-detail">
+                                                <div class="order-history-detail-left">
+                                                    <p>5 x system kits</p>
+                                                </div>
+                                                <div class="order-history-detail-right">
+                                                    <p>$745.00</p>
+                                                </div>
+
+                                            </div>
+
+                                            <div
+                                                class="d-flex justify-content-between align-items-center order-history-detail">
+                                                <div class="order-history-detail-left">
+                                                    <p>5 x deposits</p>
+                                                </div>
+                                                <div class="order-history-detail-right">
+                                                    <p>$2,500.00</p>
+                                                </div>
+
+                                            </div>
+                                            <p class="order-history-info">You will receive back the total deposit when
+                                                we
+                                                receive the hardware we
+                                                send you, in case of a subscription end on your behalf.</p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                        aria-labelledby="nav-profile-tab">
+                                        <div class="custom-table-responsive">
+                                            <div class="custom-table">
+                                                <div class="custom-table-head d-flex">
+                                                    <div class="custom-table-head-th thorder">ORDER NO.</div>
+                                                    <div class="custom-table-head-th thdate">DATE</div>
+                                                    <div class="custom-table-head-th thamount">AMOUNT</div>
+                                                    <div class="custom-table-head-th thstatus">STATUS</div>
+                                                    <div class="custom-table-head-th thdownload"></div>
+                                                </div>
+                                                <div class="custom-table-body">
+                                                    <div class="custom-table-tr d-flex">
+                                                        <div class="custom-table-head-td tdorder">253992345</div>
+                                                        <div class="custom-table-head-td tddate">Jun 5, 2022</div>
+                                                        <div class="custom-table-head-td tdamount">
+                                                            $3,245
+                                                            <span>| $745 (5 kits) + $2,500 (deposit)</span>
+                                                        </div>
+                                                        <div class="custom-table-head-td tdstatus">Paid</div>
+                                                        <div class="custom-table-head-td tddownload"><svg
+                                                                xmlns=" http://www.w3.org/2000/svg" width="16"
+                                                                height="17" viewBox="0 0 16 17">
+                                                                <path id="Icon"
+                                                                    d="M7,9.076Q7,9.038,7,9V1A1,1,0,0,1,9,1V9l2.4-1.8a1,1,0,0,1,1.2,1.6l-4,3a1,1,0,0,1-1.175.018L3.425,9a1,1,0,1,1,1.15-1.636ZM2,14v1H14V14a1,1,0,0,1,2,0v2a1,1,0,0,1-1,1H1a1,1,0,0,1-1-1V14a1,1,0,0,1,2,0Z"
+                                                                    fill="#5271ff" fill-rule="evenodd" />
+                                                            </svg></div>
+                                                    </div>
+                                                    <div class="custom-table-tr d-flex">
+                                                        <div class="custom-table-head-td tdorder">253992345</div>
+                                                        <div class="custom-table-head-td tddate">Jun 5, 2022</div>
+                                                        <div class="custom-table-head-td tdamount">
+                                                            $3,245
+                                                            <span>| $745 (5 kits) + $2,500 (deposit)</span>
+                                                        </div>
+                                                        <div class="custom-table-head-td tdstatus">Paid</div>
+                                                        <div class="custom-table-head-td tddownload"><svg
+                                                                xmlns=" http://www.w3.org/2000/svg" width="16"
+                                                                height="17" viewBox="0 0 16 17">
+                                                                <path id="Icon"
+                                                                    d="M7,9.076Q7,9.038,7,9V1A1,1,0,0,1,9,1V9l2.4-1.8a1,1,0,0,1,1.2,1.6l-4,3a1,1,0,0,1-1.175.018L3.425,9a1,1,0,1,1,1.15-1.636ZM2,14v1H14V14a1,1,0,0,1,2,0v2a1,1,0,0,1-1,1H1a1,1,0,0,1-1-1V14a1,1,0,0,1,2,0Z"
+                                                                    fill="#5271ff" fill-rule="evenodd" />
+                                                            </svg></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                                aria-labelledby="v-pills-settings-tab">
+                                <nav class="position-relative ticket-tab">
+                                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                        <a class="nav-link active" id="nav-Open-tab" data-bs-toggle="tab"
+                                            href="#nav-Open" role="tab" aria-controls="nav-Open"
+                                            aria-selected="true">Open tickets</a>
+                                        <a class="nav-link" id="nav-Closed-tab" data-bs-toggle="tab" href="#nav-Closed"
+                                            role="tab" aria-controls="nav-Closed" aria-selected="false">Closed
+                                            tickets</a>
+                                    </div>
+                                    <a class="btn-blue new-ticket-btn btn-blue-small" href="#">new ticket</a>
+                                </nav>
+
+                                <div class="tab-content" id="nav-tabContent">
+                                    <div class="tab-pane fade show active" id="nav-Open" role="tabpanel"
+                                        aria-labelledby="nav-Open-tab">
+                                        <div class="myaccount-card order-history-card-wrapper open-ticket-wrapper">
+                                            <div
+                                                class="d-flex justify-content-between align-items-center order-history-card">
+                                                <div class="order-history-card-left">
+                                                    <p class="order-history-number">Ticket #43563459</p>
+                                                    <p><em>Opened on August 14, 2022</em></p>
+                                                </div>
+                                                <div class="order-history-card-right d-flex">
+                                                    <span class="order-history-status unread">Unread</span>
+                                                    <span class="order-history-status delivered">Open</span>
+                                                </div>
+                                            </div>
+
+                                            <h6>Praesent mollis nulla sed neque interdum</h6>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas blandit
+                                                cursus ultricies. Praesent commodo erat at gravida feugiat. Duis sem
+                                                arcu, ullamcorper...</p>
+
+                                            <p class="l-reply text-end">
+                                                Last reply from Delet, 4 hours ago
+                                            </p>
+
+                                        </div>
+
+                                        <div class="myaccount-card order-history-card-wrapper open-ticket-wrapper">
+                                            <div
+                                                class="d-flex justify-content-between align-items-center order-history-card">
+                                                <div class="order-history-card-left">
+                                                    <p class="order-history-number">Ticket #43563459</p>
+                                                    <p><em>Opened on August 14, 2022</em></p>
+                                                </div>
+                                                <div class="order-history-card-right d-flex">
+                                                    <span class="order-history-status delivered">Open</span>
+                                                </div>
+                                            </div>
+
+                                            <h6>Praesent mollis nulla sed neque interdum</h6>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                                                blandit
+                                                cursus ultricies. Praesent commodo erat at gravida feugiat. Duis sem
+                                                arcu, ullamcorper...</p>
+
+                                            <p class="l-reply text-end">
+                                                Last reply from Delet, 4 hours ago
+                                            </p>
+
+                                        </div>
+
+                                        <div
+                                            class="myaccount-card order-history-card-wrapper open-ticket-wrapper position-relative">
+                                            <a href="#" class="back-btn"><i
+                                                    class="fa-light fa-long-arrow-left"></i>Back</a>
+                                            <div
+                                                class="d-flex justify-content-between align-items-center order-history-card">
+                                                <div class="order-history-card-left">
+                                                    <p class="order-history-number">Ticket #43563459</p>
+                                                    <p><em>Opened on August 14, 2022</em></p>
+                                                </div>
+                                                <div class="order-history-card-right d-flex">
+                                                    <span class="order-history-status delivered">Open</span>
+                                                </div>
+                                            </div>
+
+                                            <h6>Praesent mollis nulla sed neque interdum</h6>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas blandit
+                                                cursus ultricies. Praesent commodo erat at gravida feugiat. Duis sem
+                                                arcu, ullamcorper suscipit nulla non, luctus orci. Donec efficitur elit
+                                                sit amet ex iaculis euismod. Vivamus mollis dolor nec volutpat egestas.
+                                                Curabitur posuere turpis ac nulla congue hendrerit. Nunc a facilisis
+                                                lectus. Ut iaculis porta velit, ac tincidunt elit interdum vitae.
+                                                Maecenas dignissim dolor ipsum, et imperdiet lectus dictum in. Donec
+                                                bibendum fermentum neque eget sodales.</p>
+
+                                            <div class="d-flex img-thumb-wrapper">
+                                                <img src="{{url('assets/images/ticket-img-1.png')}}" alt="" width="130"
+                                                    height="87" />
+                                                <img src="{{url('assets/images/ticket-img-2.png')}}" alt="" width="130"
+                                                    height="87" />
+                                                <img src="{{url('assets/images/ticket-img-3.png')}}" alt="" width="130"
+                                                    height="87" />
+                                            </div>
+
+                                            <ul class="list-unstyle ticket-more-list">
+                                                <li>
+                                                    <span class="avatar-wrapper d-flex  position-relative">
+                                                        <span class="avatar">
+                                                            <img src="{{url('assets/images/Avatar.png')}}" alt=""
+                                                                width="40" height="40" />
+                                                        </span>
+                                                        <span class="avatar-more-info">
+                                                            <span class="avatar-name">Delet</span>
+                                                            <span class="avatar-time">on Wedesday at 12:34 PM</span>
+                                                        </span>
+                                                    </span>
+                                                    <p>Cras tincidunt urna eu est maximus feugiat in ut nisl. Duis
+                                                        pulvinar nisi quis erat aliquet blandit. Phasellus aliquam
+                                                        turpis ligula, at elementum dui.</p>
+
+                                                    <div class="d-flex img-thumb-wrapper">
+                                                        <img src="{{url('assets/images/ticket-img-1.png')}}" alt=""
+                                                            width="130" height="87" />
+                                                        <img src="{{url('assets/images/ticket-img-2.png')}}" alt=""
+                                                            width="130" height="87" />
+                                                        <img src="{{url('assets/images/ticket-img-3.png')}}" alt=""
+                                                            width="130" height="87" />
+                                                    </div>
+                                                </li>
+
+                                                <li>
+                                                    <span class="avatar-wrapper d-flex  position-relative">
+                                                        <span class="avatar">
+                                                            <img src="{{url('assets/images/Avatar-jd.png')}}" alt=""
+                                                                width="40" height="40" />
+                                                        </span>
+                                                        <span class="avatar-more-info">
+                                                            <span class="avatar-name">James Donovan</span>
+                                                            <span class="avatar-time">yesterday at 10:16 AM</span>
+                                                        </span>
+                                                    </span>
+                                                    <p>Cras tincidunt urna eu est maximus feugiat in ut nisl. Duis
+                                                        pulvinar nisi quis erat aliquet blandit. Phasellus aliquam
+                                                        turpis ligula, at elementum dui.</p>
+                                                </li>
+
+                                                <li>
+                                                    <span class="avatar-wrapper d-flex position-relative">
+                                                        <span class="avatar">
+                                                            <img src="{{url('assets/images/Avatar.png')}}" alt=""
+                                                                width="40" height="40" />
+                                                        </span>
+                                                        <span class="avatar-more-info">
+                                                            <span class="avatar-name">Delet</span>
+                                                            <span class="avatar-time">today at 4:05 PM</span>
+                                                        </span>
+                                                    </span>
+                                                    <p>Duis pulvinar nisi quis erat aliquet blandit. Phasellus aliquam
+                                                        turpis ligula.</p>
+                                                </li>
+                                            </ul>
+
+                                            <div class="reply-form">
+                                                <form>
+                                                    <label>
+                                                        REPLY
+                                                    </label>
+                                                    <textarea></textarea>
+                                                    <div class="reply-form-bottom d-flex justify-content-between">
+                                                        <div class="d-flex">
+                                                            <label for="reply-form-file" class="reply-form-file">
+                                                                <input type="file" id="reply-form-file">
+                                                                <span></span>
+                                                            </label>
+                                                            <div class="d-flex img-thumb-wrapper">
+                                                                <img src="{{url('assets/images/ticket-img-1.png')}}"
+                                                                    alt="" width="80" height="53" />
+                                                                <img src="{{url('assets/images/ticket-img-2.png')}}"
+                                                                    alt="" width="80" height="53" />
+
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <button class="btn-blue" type="submit">SEND</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-Closed" role="tabpanel"
+                                        aria-labelledby="nav-Closed-tab">
+                                        <p>clicked profile</p>
+                                        <p>clicked profile</p>
+                                        <p>clicked profile</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="changeName" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Change name</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="nameCard" class="form-label">FIRST NAME / LAST NAME</label>
+                    <input type="text" name="fullname" class="form-control mb-0" id="nameCard" placeholder="">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn-gray" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn-blue">SAVE</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="changePassword" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Change password</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="nameCard" class="form-label">OLD PASSWORD</label>
+                    <input type="text" name="fullname" class="form-control" id="nameCard" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="nameCard" class="form-label">NEW PASSWORD</label>
+                    <input type="text" name="fullname" class="form-control" id="nameCard" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="nameCard" class="form-label">NEW PASSWORD AGAIN</label>
+                    <input type="text" name="fullname" class="form-control mb-0" id="nameCard" placeholder="">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn-gray" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn-blue">SAVE</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade modal-lg-custom" id="change-shippingadd" data-bs-backdrop="static" data-bs-keyboard="false"
+    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Change shipping address</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="nameCard" class="form-label">full name or company</label>
+                            <input type="text" name="fullname" class="form-control" id="nameCard" placeholder=""
+                                value="James Anderson">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="nameCard" class="form-label">phone number</label>
+                            <input type="text" name="fullname" class="form-control" id="nameCard" placeholder=""
+                                value="(562) 408-1865">
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="nameCard" class="form-label">address</label>
+                            <input type="text" name="fullname" class="form-control" id="nameCard" placeholder=""
+                                value="15005 Indiana Ave #5">
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="nameCard" class="form-label">address line 2 (optional)</label>
+                            <input type="text" name="fullname" class="form-control" id="nameCard" placeholder="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="nameCard" class="form-label">country</label>
+                            <input type="text" name="fullname" class="form-control" id="nameCard" placeholder=""
+                                value="United States">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="nameCard" class="form-label">state / region</label>
+                            <input type="text" name="fullname" class="form-control" id="nameCard" placeholder=""
+                                value="California">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="nameCard" class="form-label">city</label>
+                            <input type="text" name="fullname" class="form-control" id="nameCard" placeholder=""
+                                value="Los Angeles">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="nameCard" class="form-label">postal code</label>
+                            <input type="text" name="fullname" class="form-control" id="nameCard" placeholder=""
+                                value="90723">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn-gray" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn-blue">SAVE</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-lg-custom" id="change-billingadd" data-bs-backdrop="static" data-bs-keyboard="false"
+    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Change billing address</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="nameCard" class="form-label">full name or company</label>
+                            <input type="text" name="fullname" class="form-control" id="nameCard" placeholder=""
+                                value="James Anderson">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="nameCard" class="form-label">vat number (for companies)</label>
+                            <input type="text" name="fullname" class="form-control" id="nameCard" placeholder=""
+                                value="9834757345">
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="nameCard" class="form-label">address</label>
+                            <input type="text" name="fullname" class="form-control" id="nameCard" placeholder=""
+                                value="15005 Indiana Ave #5">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="nameCard" class="form-label">address line 2</label>
+                            <input type="text" name="fullname" class="form-control" id="nameCard" placeholder="">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="nameCard" class="form-label">phone number</label>
+                            <input type="text" name="fullname" class="form-control" id="nameCard" placeholder=""
+                                value="(562) 408-1865">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="nameCard" class="form-label">country</label>
+                            <input type="text" name="fullname" class="form-control" id="nameCard" placeholder=""
+                                value="United States">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="nameCard" class="form-label">state / region</label>
+                            <input type="text" name="fullname" class="form-control" id="nameCard" placeholder=""
+                                value="California">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="nameCard" class="form-label">city</label>
+                            <input type="text" name="fullname" class="form-control" id="nameCard" placeholder=""
+                                value="Los Angeles">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="nameCard" class="form-label">postal code</label>
+                            <input type="text" name="fullname" class="form-control" id="nameCard" placeholder=""
+                                value="90723">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="sameadd2" class="custom-checbox mb-0">
+                            <input type="checkbox" id="sameadd2">
+                            <span class="check-icon"><i class="fal fa-check"></i></span>
+                            SAME AS SHIPPING ADDRESS
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn-gray" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn-blue">SAVE</button>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection

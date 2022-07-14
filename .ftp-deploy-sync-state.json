@@ -1,0 +1,2647 @@
+{
+    "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
+    "version": "1.0.0",
+    "generatedTime": 1657627970137,
+    "data": [
+        {
+            "type": "file",
+            "name": ".editorconfig",
+            "size": 258,
+            "hash": "ecdbac22b72a3d447c2e9553d3a0e900a6aac653c8a300f6d0a7e32ccd3fc10e"
+        },
+        {
+            "type": "file",
+            "name": ".env.example",
+            "size": 897,
+            "hash": "e9679929ee26736513be275f0a065a9d0a2019d916a43b1764a2d68bf55a3a1d"
+        },
+        {
+            "type": "file",
+            "name": ".styleci.yml",
+            "size": 194,
+            "hash": "b3370fb337a30564fca735cbf06b35cde853328e06cdf18529b4bdcbc33c83d0"
+        },
+        {
+            "type": "file",
+            "name": "README.md",
+            "size": 3958,
+            "hash": "5f077d9557889b63c0336b89d3323be2bfecfb37c8cf3222119aaa0ac6e3205d"
+        },
+        {
+            "type": "folder",
+            "name": "app"
+        },
+        {
+            "type": "file",
+            "name": "artisan",
+            "size": 1686,
+            "hash": "f5645be808d32398cd215ef933c793d806ae56796190579dde4ca8888c584c1b"
+        },
+        {
+            "type": "folder",
+            "name": "bootstrap"
+        },
+        {
+            "type": "file",
+            "name": "composer.json",
+            "size": 1892,
+            "hash": "cf642ba4dcd6bdf402ba23a439f7f059952475d554ea3d5e3ffe94611e83e941"
+        },
+        {
+            "type": "file",
+            "name": "composer.lock",
+            "size": 320439,
+            "hash": "710e7324d97896ad0f0ce2fe212674443cf3588bd8f7438ff68c6f721e601244"
+        },
+        {
+            "type": "folder",
+            "name": "config"
+        },
+        {
+            "type": "folder",
+            "name": "database"
+        },
+        {
+            "type": "file",
+            "name": "package.json",
+            "size": 473,
+            "hash": "8cdd75e1b6bb65ac8b5cd90d13d8cfe9d8d6ab92807047df27db3b6de482a997"
+        },
+        {
+            "type": "file",
+            "name": "phpunit.xml",
+            "size": 1202,
+            "hash": "84d5386b5bac80dfa6a50273b6d86cbebd0864a25e88edc346b1c3114b2c9582"
+        },
+        {
+            "type": "folder",
+            "name": "public"
+        },
+        {
+            "type": "folder",
+            "name": "resources"
+        },
+        {
+            "type": "folder",
+            "name": "routes"
+        },
+        {
+            "type": "file",
+            "name": "server.php",
+            "size": 569,
+            "hash": "f4d4bb71f405a7710f75c7470659653f8b552a2054de2aa101c72065b57bc056"
+        },
+        {
+            "type": "folder",
+            "name": "storage"
+        },
+        {
+            "type": "folder",
+            "name": "tests"
+        },
+        {
+            "type": "file",
+            "name": "webpack.mix.js",
+            "size": 559,
+            "hash": "77cbb3d0b54f65cc61973b6abb414c19fe0fba4d65622e40423f7b4f9d75663d"
+        },
+        {
+            "type": "folder",
+            "name": "app/Console"
+        },
+        {
+            "type": "folder",
+            "name": "app/Exceptions"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament"
+        },
+        {
+            "type": "folder",
+            "name": "app/Http"
+        },
+        {
+            "type": "folder",
+            "name": "app/Mail"
+        },
+        {
+            "type": "folder",
+            "name": "app/Models"
+        },
+        {
+            "type": "folder",
+            "name": "app/Policies"
+        },
+        {
+            "type": "folder",
+            "name": "app/Providers"
+        },
+        {
+            "type": "folder",
+            "name": "app/Traits"
+        },
+        {
+            "type": "file",
+            "name": "bootstrap/app.php",
+            "size": 1620,
+            "hash": "e346d041676171a900406bba87f0658b6d3aebef79bed7e7081213e7ac3c7951"
+        },
+        {
+            "type": "folder",
+            "name": "bootstrap/cache"
+        },
+        {
+            "type": "file",
+            "name": "config/app.php",
+            "size": 9542,
+            "hash": "f6164d35b218f3408f045d1e0e019be594f9038f623fcb5317e24e469b899dac"
+        },
+        {
+            "type": "file",
+            "name": "config/auth.php",
+            "size": 3896,
+            "hash": "040fb67420cf19bc47248fc43b207cc68d1f86a096134dfcca7b4cd416f49009"
+        },
+        {
+            "type": "file",
+            "name": "config/broadcasting.php",
+            "size": 1711,
+            "hash": "46acc7ae546913f707757ce853b342ee0241dca5767831b655ae695c3a917ccc"
+        },
+        {
+            "type": "file",
+            "name": "config/cache.php",
+            "size": 3274,
+            "hash": "b60593b1cd8ba951cc1fd6ea8898d1e24dc1865362f61230574d59087ab46091"
+        },
+        {
+            "type": "file",
+            "name": "config/cors.php",
+            "size": 846,
+            "hash": "7a1b9af42b73b20126219eca484ea7eb02c25a5d179eab1ac00251779d808c49"
+        },
+        {
+            "type": "file",
+            "name": "config/database.php",
+            "size": 5052,
+            "hash": "87933c7da4ab9020002693e87574f12beafcd452efa2c8eae69890fad8fbf2ff"
+        },
+        {
+            "type": "file",
+            "name": "config/filesystems.php",
+            "size": 2290,
+            "hash": "f357021e19cdb6a538fe7f1753cd352c7186eaf2e46e61e2538a9f75ac87b33a"
+        },
+        {
+            "type": "file",
+            "name": "config/hashing.php",
+            "size": 1572,
+            "hash": "6179fbf205a72d2db2f19b4787dc416811013cd05c82fb919b4d012832421ce8"
+        },
+        {
+            "type": "file",
+            "name": "config/logging.php",
+            "size": 3565,
+            "hash": "d048690b71ccd3ce0c023f17ba2dc545f538e91e3d827aaf1e31cfdca50b49bc"
+        },
+        {
+            "type": "file",
+            "name": "config/mail.php",
+            "size": 3587,
+            "hash": "df0bde9696abca98cb55788e67f1237415916ca6ce8f7ddf8edbf27e818ae080"
+        },
+        {
+            "type": "file",
+            "name": "config/queue.php",
+            "size": 2906,
+            "hash": "3def35ab94a40da164762d41ffe0beb1f34fee089a5292e4912cb9f74c2380a6"
+        },
+        {
+            "type": "file",
+            "name": "config/sanctum.php",
+            "size": 2289,
+            "hash": "2cc8c494e0a4df7d170d8a73c5760d60e212cd743e74ca0d3a62f899c564dbd4"
+        },
+        {
+            "type": "file",
+            "name": "config/services.php",
+            "size": 1016,
+            "hash": "3a3d7a1e265051d53e9602b80c2d870736b1138d4e8a2b6188f332ecf15a8c44"
+        },
+        {
+            "type": "file",
+            "name": "config/session.php",
+            "size": 7041,
+            "hash": "9b95425a081cf0c23ef84c650420057f30f8913f9bdcdf1dc93852ca518fc7cc"
+        },
+        {
+            "type": "file",
+            "name": "config/shopping_cart.php",
+            "size": 962,
+            "hash": "7f781c43c39d76b7d72ac567445615fa31bdc4649cb5151dff39f0047cf9e815"
+        },
+        {
+            "type": "file",
+            "name": "config/view.php",
+            "size": 1053,
+            "hash": "31296429fea0b7bc8392bdf63c5a664524c84634cdcd8d54c51d73d762c4b2ef"
+        },
+        {
+            "type": "folder",
+            "name": "database/factories"
+        },
+        {
+            "type": "folder",
+            "name": "database/migrations"
+        },
+        {
+            "type": "folder",
+            "name": "database/seeders"
+        },
+        {
+            "type": "file",
+            "name": "public/.htaccess",
+            "size": 603,
+            "hash": "42493ebc7bad9b95a90363cae9d46ca9934f2d5b4177088d7a08371d5a2623c7"
+        },
+        {
+            "type": "folder",
+            "name": "public/assets"
+        },
+        {
+            "type": "file",
+            "name": "public/favicon.ico",
+            "size": 0,
+            "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+            "type": "folder",
+            "name": "public/images"
+        },
+        {
+            "type": "file",
+            "name": "public/index.php",
+            "size": 1710,
+            "hash": "c96ed6bbe80f9105534af4d1510dc79f0143e6843970dba7ddd4ec7d03097cab"
+        },
+        {
+            "type": "file",
+            "name": "public/robots.txt",
+            "size": 24,
+            "hash": "e5c4b84484ee4216e9373be99380320c25dd94805f99f0a805846f087636553f"
+        },
+        {
+            "type": "folder",
+            "name": "public/uploads"
+        },
+        {
+            "type": "folder",
+            "name": "resources/css"
+        },
+        {
+            "type": "folder",
+            "name": "resources/js"
+        },
+        {
+            "type": "folder",
+            "name": "resources/lang"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views"
+        },
+        {
+            "type": "file",
+            "name": "routes/api.php",
+            "size": 570,
+            "hash": "23fc37075690d4c6a4ae2bdac04c6b30271fb0fb3436785174c49aafa95a3718"
+        },
+        {
+            "type": "file",
+            "name": "routes/channels.php",
+            "size": 558,
+            "hash": "5c776998675a7c7d3303b3cd0517e314755cd9d582c17b18238c3686b17d76ac"
+        },
+        {
+            "type": "file",
+            "name": "routes/web.php",
+            "size": 5597,
+            "hash": "7fd74dea3707d473738e0e2e271b8d77589c99a8d58650df11a1e3f206620dc8"
+        },
+        {
+            "type": "file",
+            "name": "routes/console.php",
+            "size": 592,
+            "hash": "69ec50e361f429e7ffaf95011f9e3cab75481ad753405755580e8e89b1518b20"
+        },
+        {
+            "type": "folder",
+            "name": "storage/app"
+        },
+        {
+            "type": "folder",
+            "name": "storage/framework"
+        },
+        {
+            "type": "folder",
+            "name": "storage/logs"
+        },
+        {
+            "type": "file",
+            "name": "tests/CreatesApplication.php",
+            "size": 380,
+            "hash": "63e92d10f62118215f6a4ee20036e86a26d6867175365429e65de33d0c60ba21"
+        },
+        {
+            "type": "folder",
+            "name": "tests/Feature"
+        },
+        {
+            "type": "file",
+            "name": "tests/TestCase.php",
+            "size": 163,
+            "hash": "fde47044bae82a492f646384cbc1e636b93c6bf0cea7047c3631e6a26736154d"
+        },
+        {
+            "type": "folder",
+            "name": "tests/Unit"
+        },
+        {
+            "type": "file",
+            "name": "app/Console/Kernel.php",
+            "size": 681,
+            "hash": "e8c92e1bb36510f8a59c5cfff6645d09fec070c6905d5a28039ccb52e7c033e8"
+        },
+        {
+            "type": "file",
+            "name": "app/Exceptions/Handler.php",
+            "size": 824,
+            "hash": "2481941be8eac7753d335b69eeaed78f80901ceadae0494634b8172b995795af"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources"
+        },
+        {
+            "type": "folder",
+            "name": "app/Http/Controllers"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Kernel.php",
+            "size": 2580,
+            "hash": "bb00f94cc3b12d0068fbe4dbd41d0c1000e71d34ab9e776e01dfa1054b68ed9d"
+        },
+        {
+            "type": "folder",
+            "name": "app/Http/Middleware"
+        },
+        {
+            "type": "folder",
+            "name": "app/Http/Requests"
+        },
+        {
+            "type": "file",
+            "name": "app/Mail/ForgotPassword.php",
+            "size": 612,
+            "hash": "fa56ea72cd59287bbe4cf357c2886db010af3c30d3328f07f32ce926918bd2e7"
+        },
+        {
+            "type": "file",
+            "name": "app/Mail/InquiryMail.php",
+            "size": 641,
+            "hash": "ef9ab3274c4efda700dc278ce9c516094520e07d694a6e539abd1a8595e8c997"
+        },
+        {
+            "type": "file",
+            "name": "app/Mail/OrderMail.php",
+            "size": 625,
+            "hash": "9665a576853152a8bd36c2ae977c8b4326fca06f2dd720cf752403beeacc2c7c"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Benefit.php",
+            "size": 231,
+            "hash": "05e6c370884d19c0ca2b359d21be66b2cd972f933a4d842a4be219c62cb29aec"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/BillingAddress.php",
+            "size": 411,
+            "hash": "942b493b8edbaf0153dbda85b359d138217b454339fa01aba071ed51fb5555c3"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Box.php",
+            "size": 264,
+            "hash": "649e1318211bf03a34ed5d1b49b4d3b09da49c550677367307c8c574ab575ea8"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/CommonBlock.php",
+            "size": 253,
+            "hash": "7ae60362b792d8be2fb430e9ac47bbf3345264ed81d883a6a102786845d6552c"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Contact.php",
+            "size": 291,
+            "hash": "e327b91b10a424d6e70586558319c8069ff1888354a1750bd1ff02b000ee14fa"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Country.php",
+            "size": 237,
+            "hash": "3f2cc33d4755bb7eb2677758aa4b4e0b709fc84b9ca13a1deb526db06da9dc3d"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Coupon.php",
+            "size": 261,
+            "hash": "282cf47cd71462852637cfe2aef606d41f04348d201883800ebd72ccdc1bf1a3"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Customer.php",
+            "size": 980,
+            "hash": "63fcfed8473b15d9a5f9afed318aad9ffcc4a389a54b9425786009d18ca6016e"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Feature.php",
+            "size": 267,
+            "hash": "6083960f785d3188e2174f51b2b355a86fd849f2919319ba52005b0f67c5e0ff"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/HomePage.php",
+            "size": 426,
+            "hash": "58176a14bd0c560b2765f72b5afbdc4e0c2b044c1de5fff463c450752d43b4f0"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Inquiry.php",
+            "size": 246,
+            "hash": "bfa5033bb44b0aa33ba305fb29aab5bcf303e667aaab366c904a844919eced60"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Order.php",
+            "size": 441,
+            "hash": "c1872a4cc6eafb303ab6324851e2750b17b25ac72b4c30e569d137f1c2975218"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/OrderItem.php",
+            "size": 256,
+            "hash": "b85f2c2f0848d18ee698037fdc731b511cf2d1c6f58927e8dcff66ca10660867"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Product.php",
+            "size": 334,
+            "hash": "782aad47c8fce4c8cffd0059d153e81aac96a6ae0607a232d3b0f0db6876dc4e"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Setting.php",
+            "size": 432,
+            "hash": "b0d47ada0215d46b7ef0c9826b837cbad831431ff1260f0ec0dceed4d8a631bb"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/ShippingAddress.php",
+            "size": 412,
+            "hash": "90180bccb7760c35c96d8302bf6fd334c72fbdb470ee9a7884ab21fb648268ab"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/SocialMedia.php",
+            "size": 268,
+            "hash": "cf15ecaeb597f890ca091f1dafe9bc7ee8afa72c747f8b38b9af28c0435600c0"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Step.php",
+            "size": 286,
+            "hash": "adc63c8d0c8a93fe2d2e4166eacac01ef8137250e7badf892f80269a13a9ee5a"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Subscription.php",
+            "size": 350,
+            "hash": "b6a1043708a41615ec224a52cab6040c24872589772f0d199f6dc294715eb95e"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Testimonial.php",
+            "size": 310,
+            "hash": "a29f154706e9c9a33e0af669a432490e9aa71acc9dee548374ceaa49e2b21459"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Ticket.php",
+            "size": 450,
+            "hash": "e3a4d5496ed48e4cee56c902558c25ba2737d34e1277365b069b6427ad7a3dcc"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/TicketReply.php",
+            "size": 385,
+            "hash": "0c3544cb81159cdc6864715cd7a0cf814e4451d2cd88f52f68eb2eb2306e8501"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/User.php",
+            "size": 913,
+            "hash": "a2516fcd3fb8f19fea3f22abef908488ca733ada5ed65e57e2e0b83960013aea"
+        },
+        {
+            "type": "file",
+            "name": "app/Policies/ContactPolicy.php",
+            "size": 2297,
+            "hash": "fe5266928cd2e6c35c5a644e4b8be7414d0a799e63a67a35bb91d10ca7524ffa"
+        },
+        {
+            "type": "file",
+            "name": "app/Policies/HomePagePolicy.php",
+            "size": 2319,
+            "hash": "365ac16d26fbf01b9a7c637c44729ce249bed377b74a8c62da432794c656c0fa"
+        },
+        {
+            "type": "file",
+            "name": "app/Policies/SettingPolicy.php",
+            "size": 2297,
+            "hash": "ca7da934d0a638e64f81b0a06f2f14927425725f3f5c18d27478f34da1dbe37d"
+        },
+        {
+            "type": "file",
+            "name": "app/Providers/AppServiceProvider.php",
+            "size": 403,
+            "hash": "dffa80c47fe659e342e09531287854f0a23a8815300c45035eee2cb3af1d1483"
+        },
+        {
+            "type": "file",
+            "name": "app/Providers/AuthServiceProvider.php",
+            "size": 613,
+            "hash": "e44f1f9b5f3c61bec5d0a068b23f9068fe28eeb0e3ceea871dfe4b7f707efd6f"
+        },
+        {
+            "type": "file",
+            "name": "app/Providers/BroadcastServiceProvider.php",
+            "size": 380,
+            "hash": "6dade8c1ce5b4f91204e5c56f821f658f3e24d3d5bbae1a625c6914995ad81d2"
+        },
+        {
+            "type": "file",
+            "name": "app/Providers/EventServiceProvider.php",
+            "size": 725,
+            "hash": "dc095a68f452f3f8c86ca1f2156d5edf28054d1a359c15a60c2190634b915876"
+        },
+        {
+            "type": "file",
+            "name": "app/Providers/RouteServiceProvider.php",
+            "size": 1680,
+            "hash": "26bae085dbd2a51ae2006a363e8ca831861aeadde70fec22968df0b74e510cf2"
+        },
+        {
+            "type": "folder",
+            "name": "app/Traits/Response"
+        },
+        {
+            "type": "file",
+            "name": "database/factories/UserFactory.php",
+            "size": 965,
+            "hash": "85560460a84310d742ee7130db92f12330342c7d6c92ea76e11cada025826b9e"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2014_10_12_000000_create_users_table.php",
+            "size": 798,
+            "hash": "864e1775933e3657da3659241bacdbb2dfcc2a20159a04f7699ba7eb233cd8ed"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2014_10_12_100000_create_password_resets_table.php",
+            "size": 683,
+            "hash": "4523ad86b515b1d37c4e182e12973247b793e50511f1065d8ef9d57fac71c45d"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2019_08_19_000000_create_failed_jobs_table.php",
+            "size": 820,
+            "hash": "b7ff81d0a2324199c07ef4141748a839a73b04b01bfe6d32bda6635987136fae"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php",
+            "size": 861,
+            "hash": "be34fc2b6d751cf72f23befbd4195e9bfed690784a5573b7f9188de8f74221c6"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2022_06_13_064738_create_contacts_table.php",
+            "size": 736,
+            "hash": "87b146e5b9053942b9ba0e7456e5cab1ecf4634e896c2e723c8af843f0a0dc19"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2022_06_13_070029_create_social_media_table.php",
+            "size": 702,
+            "hash": "f2aac695d0953f7d67e61f81a41a3c15f786790834d1b82a6117e73445518c2d"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2022_06_13_073320_create_common_blocks_table.php",
+            "size": 671,
+            "hash": "7592e706bf296545d3174bdbbb557190d9b203a1aec65f110d04ca85e0702479"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2022_06_13_073953_create_features_table.php",
+            "size": 694,
+            "hash": "75cc15938ca372ff94b64e94f25c0ae6de0c77c87735b6db022843a8824f4771"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2022_06_13_075256_create_testimonials_table.php",
+            "size": 785,
+            "hash": "74a8926d397cdf2bae021ed0fe5679499ba4a7967dc6e704bed27405c8fa0716"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2022_06_13_082737_create_settings_table.php",
+            "size": 976,
+            "hash": "adb33b23d4a5530c75cc7e3be4057389294453c018cd24b2af1900b031e58455"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2022_06_13_084028_create_steps_table.php",
+            "size": 727,
+            "hash": "668aee885ed23515aef2ea33c66729b038dc1bb29f2b3cbd07e42a76b7fbbb08"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2022_06_13_084636_create_home_pages_table.php",
+            "size": 970,
+            "hash": "81fee98dbf8aa8f8e0d6a7f09f8788c8aa84c677b39c104a33ea6df7a946fec4"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2022_06_13_112316_create_customers_table.php",
+            "size": 810,
+            "hash": "fcc48bbaf421b1b92e0d42bc310b872411b8ff5603bbc9b763ff08c807547d19"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2022_06_14_074020_create_countries_table.php",
+            "size": 658,
+            "hash": "6fd63cc1031556d82ec939deddef3002148a8409649e6f900f703aafef6a53e3"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2022_06_14_074443_create_billing_addresses_table.php",
+            "size": 1431,
+            "hash": "5e9f7095d44e73c50d6e85bf824975493c2a7f51ded2f6435bee0e68f7a75ed0"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2022_06_14_075144_create_shipping_addresses_table.php",
+            "size": 1433,
+            "hash": "324394a04c6c9ba5d18eaa9a841f2b1d520603d6396239563be0d178f67453e2"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2022_06_21_060008_create_products_table.php",
+            "size": 972,
+            "hash": "c79ff7e64802b56edf960561f10876ba63022249df09a67b9aea8f977b1c1709"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2022_06_23_110942_create_orders_table.php",
+            "size": 901,
+            "hash": "c40edae038781b3cc8b3de94e6010c3d232cd0ead02781bfbc4450fe77d50dc1"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2022_06_23_111933_create_order_items_table.php",
+            "size": 1002,
+            "hash": "fb145a1b6aac92acba5a01b613c4d9f919019b3ca8b9a2fae1373869fa33e7da"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2022_06_25_052233_create_benefits_table.php",
+            "size": 618,
+            "hash": "7848f34ce15275ff1edd0eabf7ea7182a0aeca282be8747cf204e0c5a8da67a8"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2022_06_25_053115_create_boxes_table.php",
+            "size": 686,
+            "hash": "c24927f4ab6db9768c60345114ee877c0089b02ef50d353d55fe8be3b5a45642"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2022_06_27_055452_create_tickets_table.php",
+            "size": 855,
+            "hash": "6e1200004f3927530979bbd8f35b5f240d6210316b9dd4f5086ae46a7324b6c8"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2022_06_27_055500_create_ticket_replies_table.php",
+            "size": 868,
+            "hash": "f9ea9fa0fb24c982d416f3bd85e720eabd915b26494c8a805b08e0d200e4bdd2"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2022_06_27_055518_create_reply_attachments_table.php",
+            "size": 894,
+            "hash": "c46761c96a6a803c5542dc54e114e31fcab75d75b4adcadf80b80d35bbee9fbf"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2022_06_29_063046_create_subscriptions_table.php",
+            "size": 1425,
+            "hash": "572c68b871cd08422da77997e7551ad7715832419966202b3c0f9d138754f055"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2022_06_30_044623_create_inquiries_table.php",
+            "size": 811,
+            "hash": "a6a048f04a44b7c565ac4943a557f31e5d19334187d7f00996d4e3d85d130f61"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2022_07_07_071209_create_coupons_table.php",
+            "size": 733,
+            "hash": "307e60d051e5f1deec29d7de0f1684144ecfb52ddf57e0c640d7b135b93cfd6c"
+        },
+        {
+            "type": "file",
+            "name": "database/seeders/CountrySeeder.php",
+            "size": 14209,
+            "hash": "030831b9ddb1fd438f0c48c132612de0a6f3542351d734c04cad98a73bdd70b4"
+        },
+        {
+            "type": "file",
+            "name": "database/seeders/DatabaseSeeder.php",
+            "size": 282,
+            "hash": "e89abb5d4f787ba80be2bd214c107a5c3fc3de0939b0cdc82976054162651178"
+        },
+        {
+            "type": "folder",
+            "name": "public/assets/css"
+        },
+        {
+            "type": "folder",
+            "name": "public/assets/images"
+        },
+        {
+            "type": "folder",
+            "name": "public/assets/js"
+        },
+        {
+            "type": "folder",
+            "name": "public/assets/webfonts"
+        },
+        {
+            "type": "file",
+            "name": "public/images/logo.svg",
+            "size": 2058,
+            "hash": "d1caa9e914a9e22b4e992256a319019a18895a527b17b97378f2db5831fdb50f"
+        },
+        {
+            "type": "folder",
+            "name": "public/uploads/features"
+        },
+        {
+            "type": "folder",
+            "name": "public/uploads/home"
+        },
+        {
+            "type": "folder",
+            "name": "public/uploads/setting"
+        },
+        {
+            "type": "folder",
+            "name": "public/uploads/socialmedia"
+        },
+        {
+            "type": "folder",
+            "name": "public/uploads/steps"
+        },
+        {
+            "type": "folder",
+            "name": "public/uploads/support"
+        },
+        {
+            "type": "folder",
+            "name": "public/uploads/testimonials"
+        },
+        {
+            "type": "file",
+            "name": "resources/css/app.css",
+            "size": 0,
+            "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+            "type": "file",
+            "name": "resources/js/app.js",
+            "size": 24,
+            "hash": "ef098c34ce5c06128d48c4320a356a42d8b1dcb412fef9ce243e875b7d11ae74"
+        },
+        {
+            "type": "file",
+            "name": "resources/js/bootstrap.js",
+            "size": 869,
+            "hash": "db76251694bca51ab52cf1c9fda9f43d569b60f042573f4afc18c0186e92a744"
+        },
+        {
+            "type": "folder",
+            "name": "resources/lang/en"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/address.blade.php",
+            "size": 348,
+            "hash": "b7e6d1e977b2627ac00db37ae03689334c2f1fb7bf259f592fd2ba3afa7019ad"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/ajaxcart.blade.php",
+            "size": 7463,
+            "hash": "9001cc846845551ca46412f8893b36e05ea999421385701b2c484ec95ac0fba0"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/auth"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/cart.blade.php",
+            "size": 24698,
+            "hash": "8da172607fc32b2a6505eaa077a28faffdf4f52690c526d3f204b9360ad73777"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/contact-us.blade.php",
+            "size": 4352,
+            "hash": "88baacea0e5a9127fafbe4c91fd5d5e167a144c57b5dffccdbf690d585ec8635"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/emails"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/features.blade.php",
+            "size": 1491,
+            "hash": "8b5128a474f59effbea9602837eace6542dc2cfaeed1e84c3f0e800f241d1461"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/filament"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/how-it-works.blade.php",
+            "size": 1304,
+            "hash": "a824ae62ab723012de5e84b91b2e837c9f8b632694c989c474a29e4438bfb482"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/index.blade.php",
+            "size": 4933,
+            "hash": "f5f1d097671bd2b3fa768d2562d1cc61b98e96e7af65dade3a0935a908b46c8e"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/main.blade.php",
+            "size": 180,
+            "hash": "67df837d715f83db85f61a8226180b740f0e3aad5b826adebd6d1f6bf9f85b84"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/models"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/my-account-bkp.txt",
+            "size": 43273,
+            "hash": "a7a7c73d2042de61545d910dbba8ce4ad1be972f3de93df7a18fd42f2bac76f4"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/myaccounts"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/orders-billing.blade.php",
+            "size": 359,
+            "hash": "41781c1bd75ebd0fbf88ebf53fba9c3c0c57d7c2f61a5dbc5ee09574bf72a92d"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/pricing.blade.php",
+            "size": 10488,
+            "hash": "ac8f22e0a1472d4a0f1afdb1a68d1e2473db4b62663627098a61a9600c6fb186"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/pricing.blade.php-bkp",
+            "size": 5310,
+            "hash": "e93503d6fa2c088564537195cc3ba999be069822d8548aa9d0ab0a8a047481ee"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/support.blade.php",
+            "size": 348,
+            "hash": "2e6e8d3ba5b750f4f193602b7ad01d86abe2b16e4c7e12e203938b586fcb6f0c"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/template-parts"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/welcome.blade.php",
+            "size": 18386,
+            "hash": "4f01f02cf10e7570f3820b3fa612149089d79ac66a75fb691248d10b103d4dd5"
+        },
+        {
+            "type": "folder",
+            "name": "storage/app/public"
+        },
+        {
+            "type": "folder",
+            "name": "storage/framework/cache"
+        },
+        {
+            "type": "folder",
+            "name": "storage/framework/sessions"
+        },
+        {
+            "type": "folder",
+            "name": "storage/framework/testing"
+        },
+        {
+            "type": "folder",
+            "name": "storage/framework/views"
+        },
+        {
+            "type": "file",
+            "name": "tests/Feature/ExampleTest.php",
+            "size": 339,
+            "hash": "dad6ae2d2bc7f54ab441f84b225ebeb14d9b0f08a120498a165a83849bc8bae5"
+        },
+        {
+            "type": "file",
+            "name": "tests/Unit/ExampleTest.php",
+            "size": 254,
+            "hash": "bbb0eb534a861d19c9e09f364ccbb931766baf4579b6c405d245bc1ba8422a77"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/BenefitResource"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/BenefitResource.php",
+            "size": 1377,
+            "hash": "6628a186ba48aedb0acf68257ac414950a53c28f2af8bf33b6d4b699ed383a38"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/BoxResource"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/BoxResource.php",
+            "size": 1547,
+            "hash": "44a1fce1a86a0cd7ce49c7fb2228fd28767c7259529341e92bf99f7f867e3b0e"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/CommonBlockResource"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/CommonBlockResource.php",
+            "size": 1476,
+            "hash": "46e6f31bc51b861852bd48a25e2867f14545a3a0b29781a5cd66680400195795"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/ContactResource"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/ContactResource.php",
+            "size": 1763,
+            "hash": "8dda63ad90ac1f599a270879076198e98d99482b16b04520ff79c298b21a01d4"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/CouponResource"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/CouponResource.php",
+            "size": 1683,
+            "hash": "61a83cdc136034744b810555649d5bc5704e5b1a3e3fcfcaca98793db432a5de"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/CustomerResource"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/CustomerResource.php",
+            "size": 3216,
+            "hash": "a2dccb730284edf8700b2a0c792b75d1726299f3368b77a0c2320b6d7c0ba8c9"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/FeatureResource"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/FeatureResource.php",
+            "size": 1620,
+            "hash": "cd0be602e7499ef305ebf988791b567b6c9fea2014def7799028310a749c6e33"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/HomePageResource"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/HomePageResource.php",
+            "size": 1964,
+            "hash": "1b0e89614c9090a3fad932b092c824aa11165a7008e01e3bf396cd862469f7a6"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/OrderResource"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/OrderResource.php",
+            "size": 1742,
+            "hash": "68bd375de0c2a658b34a6b7d14503170bd8d453aa90100ed10602fd951ee001f"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/ProductResource"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/ProductResource.php",
+            "size": 2221,
+            "hash": "d2c06c9516c50decab258ed39beb6bf84188cf20a2b82df6cc039118c9d4fcae"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/SettingResource"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/SettingResource.php",
+            "size": 2127,
+            "hash": "0086a0a04cd21a9c324ab50c24abeb262d613de8d8142fe4dc4b9b98ee19e1a8"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/SocialMediaResource"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/SocialMediaResource.php",
+            "size": 1689,
+            "hash": "8b3230be93e826c440b6e3428aa88c61b55b4a07351e07e53189f7c0fefa68e1"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/StepResource"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/StepResource.php",
+            "size": 1649,
+            "hash": "043776224db557113cc2ef176a9774b7da11d697daa0a02ca25e491e0f8786c7"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/TestimonialResource"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/TestimonialResource.php",
+            "size": 1942,
+            "hash": "aebf07f342fd04d8ea6a51d4c45beb56cc80b7dcadad9073c844da3dc0a56e16"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/TicketResource"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/TicketResource.php",
+            "size": 1839,
+            "hash": "d178b4abfb30b019ebf34a74767c490789341b236588fb4074f19adb6982a94c"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/UserResource"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/UserResource.php",
+            "size": 1699,
+            "hash": "bc84fad152f6a21fabf259cb0cb087fbcc71d93e4c4167a892a401ee905c79e1"
+        },
+        {
+            "type": "folder",
+            "name": "app/Http/Controllers/Auth"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/CartController.php",
+            "size": 4887,
+            "hash": "7ad65d5ad61cbfd8c2cb7515a65af226e205c8202010ac0c9391a6cfb56e31ae"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/ContactUSController.php",
+            "size": 126,
+            "hash": "907521e115b2118c671d99ca1d184fb32f31640326e4791ca1064040c985bc16"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/Controller.php",
+            "size": 977,
+            "hash": "cd4854ba666a921d6602c034fe166bee5d18b74990eac92882dbf2709e01e471"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/IndexController.php",
+            "size": 1583,
+            "hash": "c22152bfcc166bf522002d71045f57ddc478ac003919c6c41d369db737367d2c"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/MyAccountController.php",
+            "size": 6472,
+            "hash": "0de85c09d731f565eb9b25e6b06caa63a0df0e65d01f429b3d8f9139c66d99f6"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/ProductController.php",
+            "size": 277,
+            "hash": "75ec338fe8d7660dbe1bcc83e5cdcf6687bcbcc88675b9d8b1b38cde3c204e77"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/StripeController.php",
+            "size": 5175,
+            "hash": "7b3270c7d3829901e07e871e53f37331edb581335b21cbbafa4af9034cbecaa8"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Middleware/Authenticate.php",
+            "size": 469,
+            "hash": "2c0be9f631263bbae2d83531cbb0f2068aaa0c53a000d5cc2605bf291d7dafc1"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Middleware/EncryptCookies.php",
+            "size": 307,
+            "hash": "958e86e38afd4321b443b8c4aaef17fc956bbac93410d54af2f74213c52e9b87"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Middleware/PreventRequestsDuringMaintenance.php",
+            "size": 366,
+            "hash": "63a907517beed52be7dad5dbda73e9ecd504b1cece86a80c007526998e146974"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Middleware/RedirectIfAuthenticated.php",
+            "size": 877,
+            "hash": "b5d645f77c2790f685477797fa10fb915e6564d42846a20c362ed5042789a536"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Middleware/TrimStrings.php",
+            "size": 381,
+            "hash": "107bf2dc8b970b2956548ab63221b350587f1fb94792f786f047723da5e2c615"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Middleware/TrustHosts.php",
+            "size": 372,
+            "hash": "1c6e9a1b0d698038bd2e54598b144275b56e9838d78bb833cbee12e567b33761"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Middleware/TrustProxies.php",
+            "size": 649,
+            "hash": "9ba084335e120f472f21ced3e062e07dca6333e8ba91029e44dfec485f9c6485"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Middleware/VerifyCsrfToken.php",
+            "size": 320,
+            "hash": "4cf686438284e60066d1851141afb196540df76bb0c923dd761d6fea82558f40"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Requests/CartRequest.php",
+            "size": 510,
+            "hash": "d2e3ceac8a2936c53ef5534071939e7a50de532b8570ce22b9d08d431097361e"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Requests/ChangeNameRequest.php",
+            "size": 518,
+            "hash": "dc4bfa0bc1308885359fdac5ce2439643b7514df453d3580b95f2b355f7c2f38"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Requests/ChangePasswordRequest.php",
+            "size": 635,
+            "hash": "3087c0da3b504cc228b094844008ce5ab8e51c3d0470a9b0c6e623f43837d4c0"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Requests/CreateTicketRequest.php",
+            "size": 523,
+            "hash": "0c46145c29ca67c6b55ecb469d359adb67d07976a9c8123ff2888616cc9e59eb"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Requests/CustomerEmailVerificationRequest.php",
+            "size": 1255,
+            "hash": "e3562d0117fafd48ead849dfd7ab8ac871e7bf46f0553bc950f97ad8f41f790a"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Requests/ForgotPasswordRequest.php",
+            "size": 522,
+            "hash": "e50577df82957e63d72405d92f6e609dff465237e9d346fdd5277d8a801313b2"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Requests/Login.php",
+            "size": 479,
+            "hash": "eb35bfe8ea6a074c24423752f6c03d36b104e710437da0cb164e7c141fa34e4e"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Requests/LoginRequest.php",
+            "size": 555,
+            "hash": "03aa8bda91ed1af14dd2b6e98671e3c942ef3ffea3eb2f5c0edfe83dedea8266"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Requests/RegisterRequest.php",
+            "size": 619,
+            "hash": "5ec197180214cc3c8c676f3e4c8ae82000df3e5cd9e6025a8b5f1d637e203f08"
+        },
+        {
+            "type": "file",
+            "name": "app/Traits/Response/ResponseTrait.php",
+            "size": 1938,
+            "hash": "fb1cee02fa2a7d550af458c49fffc6295a99c3a945b890237d7787bc31cd228f"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/css/custom-style.css",
+            "size": 42953,
+            "hash": "aae09cd430380b75db35cff89b8bbd584648ae4f33e5531acb89300708ac5bce"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/css/owl.carousel.css",
+            "size": 4743,
+            "hash": "bd72e6b7ad63bac5af484333c93f4bf952b002e4264dc3a7157fe21bfa0a2072"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/css/style.css",
+            "size": 205337,
+            "hash": "206a59da0211b1234bd8b86b200375427c1ae02b852f2a796d183de69d1b7df4"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/0.gif",
+            "size": 43,
+            "hash": "548f2d6f4d0d820c6c5ffbeffcbd7f0e73193e2932eefe542accc84762deec87"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/Avatar-jd.png",
+            "size": 993,
+            "hash": "2a18c642366224b01da496aa5a61406d521889f69e7e53c06d41ba66e55df1fe"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/Avatar.png",
+            "size": 988,
+            "hash": "06c3eb5e36f7973dcfae7e8aa2088f0000c7997c308ec6d5f17b2cd80f875771"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/about-image.svg",
+            "size": 263643,
+            "hash": "cfe6c7aa85d4b3370b64a3d4854407108c2820e05fc62de2ec6ea2902c2dfc59"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/ah-bg.svg",
+            "size": 2666,
+            "hash": "87f89601d36245174c154c1de31496e18fd85adbaeb79206dade35720fffbe6c"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/arrow.svg",
+            "size": 224,
+            "hash": "9bde0c7a2ecf3332948df7fb2905132025bb86c27f8a913842472ebbaae862a3"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/banner-contact.svg",
+            "size": 196567,
+            "hash": "2f29e3ea7507b0458523a969cffe49f8ffc99a8f663afe5cedb935e94aa809f0"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/banner-feature.svg",
+            "size": 204333,
+            "hash": "5c6982ae74b32075e19c564a73da1bf63938e3898493cacd3ee2c5c90c81c991"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/banner-how-it-work.svg",
+            "size": 264224,
+            "hash": "d7667c214a1e67b930b4e09f75b58cd149514aeac64b5a91c0fefc7189c7e635"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/banner-image-mobile.png",
+            "size": 275857,
+            "hash": "98a3374b44f108b7380b5c7247ef6f77ed82b4c74f40a4564f796b40a3e39463"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/banner-image.png",
+            "size": 323402,
+            "hash": "7a97762065774aa112c3d890f7b7047ee789b28be5bee1f9f2a58fc460450557"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/banner-pricing.svg",
+            "size": 267761,
+            "hash": "f742e87b99df01e32698df584767881e278334f38f45a89ab17dd452328cd2d0"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/banner.svg",
+            "size": 648,
+            "hash": "574378ff51955972f2e74ce636b4e0573e2a67cc640be850a5e825120b95db7a"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/benefits-image.svg",
+            "size": 1980130,
+            "hash": "08a0864c2c6c7f9f0ea133ca1d1ee0039f0ce1447f36f600752588073d536c33"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/bottom-image-feature.svg",
+            "size": 48615,
+            "hash": "25394aa5342faa728418bab3d406cad7fcd9427bcc6c50bcf755063e3113e850"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/bottom-image-how-it-work.svg",
+            "size": 42339,
+            "hash": "7f752b6ead8b2500c01f468b6da1432706a49a729805567728ba7d0bc2537c5c"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/bottom-image-pricing.svg",
+            "size": 34725,
+            "hash": "f4fb940463e9d6af04fa70e138e838d68dc0dccaf6a90b0eb402865e50e7e585"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/cart-illustration.svg",
+            "size": 54955,
+            "hash": "b083d0a102f6ba471135a23a1bdeba9129185a3a720eb77d7d4b52ec130cfb69"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/client-1.jpg",
+            "size": 3602,
+            "hash": "738aede6c881ca29d35b75cbc82c3786cfce532de547f6d71da1b3fa3bb1711c"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/client-2.jpg",
+            "size": 3861,
+            "hash": "cc23a15b925d5ccf71eb97cc75fe77aa9eb01d674e875784ae0fe4523452303d"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/client-3.jpg",
+            "size": 3791,
+            "hash": "6111f1104743a797df977a8e5596e03823a7b7d9cd9bb7be37b8b3cc82bc6722"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/client-4.jpg",
+            "size": 3470,
+            "hash": "e8abf6a43e8e6a76e38a6eefb85642b20a8a17a32aadbe561f920c4c2999def0"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/cta-bg.svg",
+            "size": 1127544,
+            "hash": "a6c74e8377030eedc468ca89f9878e0b1397b290acc023737d16f9f6c08d895e"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/curly-arrow.svg",
+            "size": 4082,
+            "hash": "7c3e99ace6960b39fb230ef9cae6671c8bf4a28478ac7f1e2653776844796173"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/empty-cart.svg",
+            "size": 34889,
+            "hash": "c26b40cbb1aa4b2d5b26595dfbfb8c5c7aed3b019b1a200fcf4964dbb3f87446"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/feature-bg-bottom.svg",
+            "size": 482,
+            "hash": "3615c02774aeb28ea3166e4953a54e885e0fd210305a30b5ffb085b6fcce0758"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/feature-bg.svg",
+            "size": 1424,
+            "hash": "1c8952a11b5c5b76c5083b486f2f724e2ec4aa4f090f7091c941c13ffa816e96"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/file-img-1.png",
+            "size": 3752,
+            "hash": "34b2146e212e806503c0f0127d1dc485a5f5a55899bf32c8576dc8af2d507440"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/file-img-2.png",
+            "size": 7794,
+            "hash": "08f543b6c9e314a447d2e12b7f2e2c67e905e9c1f818f6b965b4b9e6f4ab5ede"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/how-it-work-step-1.svg",
+            "size": 119059,
+            "hash": "f5160e43e127495284d347466b66696e5ce215671538e54597b5010c54373471"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/how-it-work-step-2.svg",
+            "size": 53078,
+            "hash": "2b89453733e6f89f4a1557b4520c7f5ed7a909e5f51f0d59135fe93e0d20ae58"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/how-it-work-step-3.svg",
+            "size": 26328,
+            "hash": "1785c0b9fd7b17be35da158b8f5a5b7b059dd06e8f082de7c9f2f8e21b12a26b"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/how-it-work-step-4.svg",
+            "size": 44110,
+            "hash": "b684a1811b90b69c511f5c06f706d96abb88d8fae1c0004cbf462521a5da2624"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/icon-automated-scheduling.svg",
+            "size": 33067,
+            "hash": "af1841857834aec5959a0cf0777dc7bc20ed31585849e2afb858d2a97b7865b4"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/icon-client-management.svg",
+            "size": 9942,
+            "hash": "0f5fa9536b0103cbdf39a775c7028d9fa551f6f01115174908cf29d3861427fe"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/icon-easy-to-use-software.svg",
+            "size": 41329,
+            "hash": "111e73e74e90d6bc50f7e863794c5ad4a8eb485fa4d1adaed0698f266f3a9a29"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/icon-enhanced-privacy.svg",
+            "size": 57695,
+            "hash": "38909234a217824b2ec4baad1cf08066224c909520ad5788af5214ce08c0fd8d"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/icon-facebook.svg",
+            "size": 479,
+            "hash": "3e07bfc84d5efaaad32f80091787e29e94c2ed5a65ec56466129b1f8c1c15037"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/icon-high-tech-security.svg",
+            "size": 46095,
+            "hash": "75394f8aaf560acfc692794a5ffbe55cb4f9560efd389006d0121e7137a4bb7f"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/icon-instagram.svg",
+            "size": 2213,
+            "hash": "3a3d488d129d251450e3aeb1b2be2ad902674f0b31b06e91b31334abe83cb188"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/icon-reusable-equipment.svg",
+            "size": 99418,
+            "hash": "bc739b29944902dd71dd810a4ff5fdc3f134eb498514effa5bba261b90551287"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/icon-tiktok.svg",
+            "size": 785,
+            "hash": "015c822fcb79c23850773bcad6afa55590d579b9d259faa0748a4dc5a07d3fbe"
+        },
+        {
+            "type": "folder",
+            "name": "public/assets/images/icons"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/inner-banner-bg-mobile.svg",
+            "size": 2366,
+            "hash": "672e8c5d4385c19c52bf3997d4d64cdfb2e3700adb3a50edca384c820296d693"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/inner-banner-bg.svg",
+            "size": 3313,
+            "hash": "73bd6f4bf19875247e9c71bc2d5c1123b86b7372819a71978d7a858ef128aa49"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/line-1.svg",
+            "size": 355,
+            "hash": "b85eeed679e03e780233b865a05b669f16161b410cf2b9f9d782a99c64c9af0e"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/line-2.svg",
+            "size": 344,
+            "hash": "afdc8720a87f54e171d0c98e21e7d258ed637e351eb000de645171e9548f4ffc"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/line-3.svg",
+            "size": 351,
+            "hash": "2eb1c015130c83f5a89e5add85f6b563f5cbb19069c5fb17f99f00469e287129"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/logo.svg",
+            "size": 2058,
+            "hash": "d1caa9e914a9e22b4e992256a319019a18895a527b17b97378f2db5831fdb50f"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/menu-btn-mobile.svg",
+            "size": 556,
+            "hash": "c57d2639ee17cba7a25f15cc93d9c2ade5eaaba8cd4cc14d9803870cd6ca5d30"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/movie.mp4",
+            "size": 318465,
+            "hash": "14d59f0d471187676439d65de38ecb5f62c5597e3dc0e7c685849b3c6c52da27"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/number-bg.svg",
+            "size": 2666,
+            "hash": "2071965dec4f75e984740cfda44e0a1e1cc647ab66df45c5ed8e98d7f7224f05"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/system-kit-mobile.svg",
+            "size": 37674,
+            "hash": "d1fc24b8c30f372083a52c679a6d7d9c3cc6a8f926ebb926942ca5cf94d39559"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/system-kit-new.svg",
+            "size": 80394,
+            "hash": "e3dab196e27aede8063fd511ed0c3a01d09fdcf59cdd59a10213701ff34cdeaf"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/system-kit.svg",
+            "size": 46129,
+            "hash": "65f8427065100f01120eb4a81eec36358320911730a753cc15e04e272c0735b8"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/table-logo.png",
+            "size": 16306,
+            "hash": "be67b83e45714df76480acf95aa653f203afddde61d0873ff80b80e1bff1a5ff"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/ticket-img-1.png",
+            "size": 9860,
+            "hash": "7ebc979726e126b649074c478a93ce9219f7d81e8eae0d868716ab9c3acc9c23"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/ticket-img-2.png",
+            "size": 15140,
+            "hash": "6bd8cc3d3b200634fdb89fccb50b19eed2b75d7504e29bb95b7e00190586da88"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/ticket-img-3.png",
+            "size": 24863,
+            "hash": "891b0a9e9a4d8007adac03c1e9a0eb91e1f5f9cc7d7a0a2153f545cd36e4b95d"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/title-line-black.svg",
+            "size": 1087,
+            "hash": "a5a40ad572965a0643fab15d4d539148224b31cb4c0f296c44c743172cbc155e"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/title-line.svg",
+            "size": 1087,
+            "hash": "9857dd62e3554b7ff8a7ec3936cf9390ba1d2187cc752807dc813099c17b570d"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/videoframe.jpeg",
+            "size": 178620,
+            "hash": "eae460c99ba80588b33306f7b96521fb2f1fba7cafad240914b7d3cf1c0d99b2"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/wave-bg-bottom.svg",
+            "size": 768,
+            "hash": "cce819bca5755f60c18ef71ba38e3f88a1cc4f262018639fbe2804b16a1c336e"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/wave-bg-top.svg",
+            "size": 762,
+            "hash": "cf5563df5aaa2537c59528a1933bd9988326d531a75728de7a7cfb5cd8d830ef"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/wave-graph.svg",
+            "size": 498,
+            "hash": "2b75d2e086af6dcaf60dff90649841b27f06355e8782eebc25fdf2f966b79651"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/wave-w-outline-0.svg",
+            "size": 1580,
+            "hash": "2b1c943636d85cb9f34d0a8478587be254637b61fba77e3212fae20e4d1d6b65"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/wave-w-outline.svg",
+            "size": 856,
+            "hash": "217d2f4b98bc50afadbf3e2c5d2bb00ef82ba3603d0f65ddcc5ac573d6eacfb7"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/js/app.js",
+            "size": 13250,
+            "hash": "b0a595c285980582b4e990e7082981a14591da7a024dbfc55fda324223fcc81d"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/js/jquery.validate.min.js",
+            "size": 24430,
+            "hash": "4c0cc637858d6503cba9262f8be75740c29e853605a153a7bde46a6e2e367eb0"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/js/masonry.pkgd.min.js",
+            "size": 24103,
+            "hash": "367d6afdfc741fb48d2d9310e47c3924b693459a74c882c0fc545ec5ed7d55d2"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/js/owl.carousel.min.js",
+            "size": 44342,
+            "hash": "a53c43f834b32309b084ea9314df8307e9c78cee2202c6e07f216ae4ae5b704d"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/webfonts/fa-light-300.ttf",
+            "size": 158072,
+            "hash": "5c42fdb67c0b41103c1627554a5e16ed10322c35bcc53e484f1764f135ea5e5e"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/webfonts/fa-light-300.woff",
+            "size": 70708,
+            "hash": "5f8347cde27a8021a044b0c8a1e225639f9f801ac9eec7b6d7917ca387020c5a"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/webfonts/fa-light-300.woff2",
+            "size": 55104,
+            "hash": "7a6788db788a95ff102c4517f3f6c2bc8688c878815333b592962280f8412f83"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/webfonts/fa-regular-400.ttf",
+            "size": 145256,
+            "hash": "c64150a0fa4f29cd9bcf9f83c7104d869c1cc0d0f277315dc2da60e4aa3778ee"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/webfonts/fa-regular-400.woff",
+            "size": 66320,
+            "hash": "0f698342b984b4b3b93701a0a1d381a668000544d844716ff78f8ff19bb8bea4"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/webfonts/fa-regular-400.woff2",
+            "size": 52500,
+            "hash": "177496949c475a0ef9fe63ca25b6ab389fbc72d0b155ac24559c5bed213afe2c"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/features/icon-automated-scheduling.svg",
+            "size": 33067,
+            "hash": "af1841857834aec5959a0cf0777dc7bc20ed31585849e2afb858d2a97b7865b4"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/features/icon-client-management.svg",
+            "size": 9942,
+            "hash": "0f5fa9536b0103cbdf39a775c7028d9fa551f6f01115174908cf29d3861427fe"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/features/icon-easy-to-use-software.svg",
+            "size": 41329,
+            "hash": "111e73e74e90d6bc50f7e863794c5ad4a8eb485fa4d1adaed0698f266f3a9a29"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/features/icon-enhanced-privacy.svg",
+            "size": 57695,
+            "hash": "38909234a217824b2ec4baad1cf08066224c909520ad5788af5214ce08c0fd8d"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/features/icon-high-tech-security.svg",
+            "size": 46095,
+            "hash": "75394f8aaf560acfc692794a5ffbe55cb4f9560efd389006d0121e7137a4bb7f"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/features/icon-reusable-equipment.svg",
+            "size": 99418,
+            "hash": "bc739b29944902dd71dd810a4ff5fdc3f134eb498514effa5bba261b90551287"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/home/about-image (1).svg",
+            "size": 263643,
+            "hash": "cfe6c7aa85d4b3370b64a3d4854407108c2820e05fc62de2ec6ea2902c2dfc59"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/home/about-image.svg",
+            "size": 263643,
+            "hash": "cfe6c7aa85d4b3370b64a3d4854407108c2820e05fc62de2ec6ea2902c2dfc59"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/setting/logo.svg",
+            "size": 2058,
+            "hash": "d1caa9e914a9e22b4e992256a319019a18895a527b17b97378f2db5831fdb50f"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/socialmedia/icon-client-management.svg",
+            "size": 9942,
+            "hash": "0f5fa9536b0103cbdf39a775c7028d9fa551f6f01115174908cf29d3861427fe"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/socialmedia/icon-facebook.svg",
+            "size": 479,
+            "hash": "3e07bfc84d5efaaad32f80091787e29e94c2ed5a65ec56466129b1f8c1c15037"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/socialmedia/icon-instagram.svg",
+            "size": 2213,
+            "hash": "3a3d488d129d251450e3aeb1b2be2ad902674f0b31b06e91b31334abe83cb188"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/socialmedia/icon-tiktok.svg",
+            "size": 785,
+            "hash": "015c822fcb79c23850773bcad6afa55590d579b9d259faa0748a4dc5a07d3fbe"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/steps/how-it-work-step-1.svg",
+            "size": 119059,
+            "hash": "f5160e43e127495284d347466b66696e5ce215671538e54597b5010c54373471"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/steps/how-it-work-step-2.svg",
+            "size": 53078,
+            "hash": "2b89453733e6f89f4a1557b4520c7f5ed7a909e5f51f0d59135fe93e0d20ae58"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/steps/how-it-work-step-3.svg",
+            "size": 26328,
+            "hash": "1785c0b9fd7b17be35da158b8f5a5b7b059dd06e8f082de7c9f2f8e21b12a26b"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/steps/how-it-work-step-4.svg",
+            "size": 44110,
+            "hash": "b684a1811b90b69c511f5c06f706d96abb88d8fae1c0004cbf462521a5da2624"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/support/1656505563_client-1.jpg",
+            "size": 3602,
+            "hash": "738aede6c881ca29d35b75cbc82c3786cfce532de547f6d71da1b3fa3bb1711c"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/support/1656505563_client-2.jpg",
+            "size": 3861,
+            "hash": "cc23a15b925d5ccf71eb97cc75fe77aa9eb01d674e875784ae0fe4523452303d"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/support/1656505811_client-1.jpg",
+            "size": 3602,
+            "hash": "738aede6c881ca29d35b75cbc82c3786cfce532de547f6d71da1b3fa3bb1711c"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/support/1656505811_client-2.jpg",
+            "size": 3861,
+            "hash": "cc23a15b925d5ccf71eb97cc75fe77aa9eb01d674e875784ae0fe4523452303d"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/support/34bd7ff3-c41f-4042-b7b3-c3711d70beb9.jpg",
+            "size": 155895,
+            "hash": "d19bf4109ca83d1da3e5a2e4bbe94191c460b9aa189bba0b3545d20128655570"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/support/client-1.jpg",
+            "size": 3602,
+            "hash": "738aede6c881ca29d35b75cbc82c3786cfce532de547f6d71da1b3fa3bb1711c"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/support/client-1.jpg1656505406",
+            "size": 3602,
+            "hash": "738aede6c881ca29d35b75cbc82c3786cfce532de547f6d71da1b3fa3bb1711c"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/support/client-2.jpg",
+            "size": 3861,
+            "hash": "cc23a15b925d5ccf71eb97cc75fe77aa9eb01d674e875784ae0fe4523452303d"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/support/client-2.jpg1656505406",
+            "size": 3861,
+            "hash": "cc23a15b925d5ccf71eb97cc75fe77aa9eb01d674e875784ae0fe4523452303d"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/support/client-3.jpg1656505406",
+            "size": 3791,
+            "hash": "6111f1104743a797df977a8e5596e03823a7b7d9cd9bb7be37b8b3cc82bc6722"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/testimonials/client-1.jpg",
+            "size": 3602,
+            "hash": "738aede6c881ca29d35b75cbc82c3786cfce532de547f6d71da1b3fa3bb1711c"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/testimonials/client-2.jpg",
+            "size": 3861,
+            "hash": "cc23a15b925d5ccf71eb97cc75fe77aa9eb01d674e875784ae0fe4523452303d"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/testimonials/client-3.jpg",
+            "size": 3791,
+            "hash": "6111f1104743a797df977a8e5596e03823a7b7d9cd9bb7be37b8b3cc82bc6722"
+        },
+        {
+            "type": "file",
+            "name": "public/uploads/testimonials/client-4.jpg",
+            "size": 3470,
+            "hash": "e8abf6a43e8e6a76e38a6eefb85642b20a8a17a32aadbe561f920c4c2999def0"
+        },
+        {
+            "type": "file",
+            "name": "resources/lang/en/auth.php",
+            "size": 674,
+            "hash": "029823d4e0f2a8cce3b9ccb90e3eacdb4c9f28947ba59a5525bd39c14c869716"
+        },
+        {
+            "type": "file",
+            "name": "resources/lang/en/pagination.php",
+            "size": 534,
+            "hash": "5c9bed6d2c965666d0c8b9f17f93f87cbfc7a240ead19b3b061764e8238e219f"
+        },
+        {
+            "type": "file",
+            "name": "resources/lang/en/passwords.php",
+            "size": 744,
+            "hash": "1033d4d34a49e17610dee7a13e14d13525472a96396a96c07d3870f337e10498"
+        },
+        {
+            "type": "file",
+            "name": "resources/lang/en/validation.php",
+            "size": 8536,
+            "hash": "6dbfd731f4c50433acf81bb948b168dbf4c3465704a14fd21d1ec39ab65915d6"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/auth/forgetPassword.blade.php",
+            "size": 1738,
+            "hash": "9c414b6b2f9f57fa11790d1688b5f3b2b1680d8cd5b4f2e8c6d626040ed309a4"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/auth/forgetPasswordLink.blade.php",
+            "size": 1922,
+            "hash": "448df952ca9e4a2f3b30a2147891322855ab7f28737b241560e8694f7c5d0149"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/auth/login.blade.php",
+            "size": 1983,
+            "hash": "f43db3eb0b0594bcdb292e473ed5e819df912bc2dff55cd23a9761a2a810bc72"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/auth/register.blade.php",
+            "size": 2418,
+            "hash": "7e3b8a926ae8a64cfbb5c1b42bcfcdbdcc0304bd7545befa7b8739f2a76a28ca"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/auth/verify-email.blade.php",
+            "size": 232,
+            "hash": "a836a84cff836c5334c096af7e920106a074922967d0d7959298221a1d57e6c1"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/emails/forgetPassword.blade.php",
+            "size": 204,
+            "hash": "3b2ca3a9d45bfc55650086d582cb53a70ce7e957741d026a954c2d22f631556e"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/emails/inquiry.blade.php",
+            "size": 267,
+            "hash": "2ec60cfb0c6953f11c773b4e065d0a7868c7b2485a8eb637b05e7a1ed7a8c99c"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/emails/order.blade.php",
+            "size": 107,
+            "hash": "7faa6e0b47e6c60a08780752a523819e5ec9d4cdb2a389e5206df5069f1eac90"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/filament/tables"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/models/createaccount.blade.php",
+            "size": 3189,
+            "hash": "37301720887f89342b02aa303f4ae367a6343d5b8d73dd2d451f42e14311cea0"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/models/forgotpassword.blade.php",
+            "size": 2166,
+            "hash": "c411493c44beef9b5972780d17a8f04d4ddad1debb1c793b22df94453e2d0fa4"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/models/login.blade.php",
+            "size": 2064,
+            "hash": "6e096aba415993e4eb1e5a4baa426ce98b79210ed98a835d1af84ce5682aacc2"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/models/models.blade.php",
+            "size": 91,
+            "hash": "8ef061c07a7c5c9a8dcdf2f12c652de360f2e1c0d651269b4b153a9aa00f2efb"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/myaccounts/address.blade.php",
+            "size": 16077,
+            "hash": "3b0153ed844397f966f278a044e1156f827047827732932ac139cb7994b81345"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/myaccounts/index.blade.php",
+            "size": 5394,
+            "hash": "31cd351ce838a0626e994db8b99d0d8272207e7f78f491837e29abe5721b2f62"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/myaccounts/orders.blade.php",
+            "size": 8232,
+            "hash": "9d8cefea07adea3f18da9d42693068755a4397a0ea2e660cc1f03f59a6d7012e"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/myaccounts/parts"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/myaccounts/reply.blade.php",
+            "size": 11176,
+            "hash": "bde3adac605fc36c15d5768865d2c7f17bb10882190605285456ccc4be348f29"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/myaccounts/support.blade.php",
+            "size": 7787,
+            "hash": "919aaf650a446515199e7ba2b53f5d0fc0fb1ee76ba40b00273dcaea6dc4389d"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/template-parts/common.blade.php",
+            "size": 297,
+            "hash": "66b4264a14ba9a2d1d1f41fa79cd1a2ad55c587f919135dbff6c2570f8e7ff3d"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/template-parts/footer.blade.php",
+            "size": 7897,
+            "hash": "9bd6cfe88d8bdb76136cc54925d408705d988cef935a7c6fb38a7afe70acaba0"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/template-parts/head.blade.php",
+            "size": 3018,
+            "hash": "951f867475010fef0ff4cbaf00b7b78aeecbc53ae0b7aaef9e05dc2fdc066e67"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/template-parts/header.blade.php",
+            "size": 8944,
+            "hash": "b124a030e96ddc40222edea10762c018e7ed9cb79803d9d28b5e3d2b67ec8550"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/template-parts/header.blade.php-bkp",
+            "size": 6206,
+            "hash": "6e12ac2ed53a0a8cb836e01081dcb87d7f518a79d96392477843c26565596e9b"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/template-parts/tryit.blade.php",
+            "size": 293,
+            "hash": "5251aa91acfa4318d487826652cefb9126cf78478ed753b9ecb73f38b94d976f"
+        },
+        {
+            "type": "folder",
+            "name": "storage/framework/cache/data"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/BenefitResource/Pages"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/BoxResource/Pages"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/CommonBlockResource/Pages"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/ContactResource/Pages"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/CouponResource/Pages"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/CustomerResource/Pages"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/FeatureResource/Pages"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/HomePageResource/Pages"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/OrderResource/Pages"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/OrderResource/RelationManagers"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/ProductResource/Pages"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/SettingResource/Pages"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/SocialMediaResource/Pages"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/StepResource/Pages"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/TestimonialResource/Pages"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/TicketResource/Pages"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/TicketResource/RelationManagers"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filament/Resources/UserResource/Pages"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/Auth/ForgotPasswordController.php",
+            "size": 2401,
+            "hash": "36ef0fc67ede9899e822ad27ae7227d4db6ced9d5db9a5e9f812c1d4f72c547d"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/Auth/LoginController.php",
+            "size": 1540,
+            "hash": "ea9448db840f263ee66ae92063370b2ebf32227fef2183b23b832e62ab2fe566"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/Auth/RegisterController.php",
+            "size": 1105,
+            "hash": "4136d4d2f1db294ddb368ba17a4b2e496030fe7600575cdcc6199d6fe9da6d00"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/icons/android-icon-192x192.png",
+            "size": 2805,
+            "hash": "264a794fc592a0b8786c4994d0d4c50742e607b5ddc9f1c731fafb615675c703"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/icons/apple-icon-114x114.png",
+            "size": 2578,
+            "hash": "af68b7cdf1651d27f22c273856eb824f28e431e13c8f31fc6971bf2fc3ee3c47"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/icons/apple-icon-120x120.png",
+            "size": 2677,
+            "hash": "8d907bb9af23b886117153a8d761d0d6d5f1856ff0d0acc21dff7915a286143e"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/icons/apple-icon-144x144.png",
+            "size": 3035,
+            "hash": "49f35a6eca14e299fac312ae1c46ca4046b3be0a757a850d5cbbabfd047c7721"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/icons/apple-icon-152x152.png",
+            "size": 3195,
+            "hash": "b2220a7afde35e41e407e926a9803ca137903f64e2fa75ef10ebc97f8b7443f0"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/icons/apple-icon-180x180.png",
+            "size": 3641,
+            "hash": "2dfe28fd1c3b1fb1def20ba2a03aff15a4fb1ccaf94b2d3216cb709444d30c18"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/icons/apple-icon-57x57.png",
+            "size": 1758,
+            "hash": "00e0a56c59f6fc8f00b090876b20d0336b3ae0093dafaa004a8d4bb666129e1f"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/icons/apple-icon-60x60.png",
+            "size": 1815,
+            "hash": "ed52fc16ae01c0ea9f72d970ccf1081a7e221e1e7aede0db9fe053a135b486e4"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/icons/apple-icon-72x72.png",
+            "size": 1952,
+            "hash": "e78e0a7302ae11767d14374f12be880d45d9699129a275b027a722097cbf508b"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/icons/apple-icon-76x76.png",
+            "size": 2043,
+            "hash": "9cfae64a8ed006a7f5cdd854f9f808e2e95cd0734b640bf4e650a307564ec739"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/icons/favicon-16x16.png",
+            "size": 1097,
+            "hash": "8ecbae3bd6c92d769d8da7369e577bebb3e50ea8f81e79de9a056391b7cd4b01"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/icons/favicon-32x32.png",
+            "size": 1369,
+            "hash": "93be4d843e0aa6cc215791d9d2a32264fc8d0da0755f205524a4c7aea4989a7f"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/icons/favicon-96x96.png",
+            "size": 2336,
+            "hash": "ae3fe1b717157117861c699313550e2f7a345166a5a48b0c7a414c1f2bc9b5b3"
+        },
+        {
+            "type": "file",
+            "name": "public/assets/images/icons/manifest.json",
+            "size": 720,
+            "hash": "27eca3e8297eb7ff340deb3849b210185a459b3845456aa4d0036f6d966b3518"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/filament/tables/columns"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/myaccounts/parts/navigation.blade.php",
+            "size": 896,
+            "hash": "ee1898add75ff49f6a3391b3a026f94ebb957d7045f6da752559033818045042"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/BenefitResource/Pages/CreateBenefit.php",
+            "size": 261,
+            "hash": "a62981efdd6a9e28d8d1a988ca889b2ce30c58a045406213b858e514298e0578"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/BenefitResource/Pages/EditBenefit.php",
+            "size": 255,
+            "hash": "d7b3bc382972a5e19ec84df2510a279bcdfccc5b37a11ab849cd617ab6974d5e"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/BenefitResource/Pages/ListBenefits.php",
+            "size": 258,
+            "hash": "c777c22ef4e9dcfe60676790bc03651f04c3ee935ce1a55e572d978a30f58443"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/BoxResource/Pages/CreateBox.php",
+            "size": 245,
+            "hash": "a3c371c8dd570808d00c14532d4c8f7e57a269a9d9ca0c33e0439b43c6e7b21d"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/BoxResource/Pages/EditBox.php",
+            "size": 239,
+            "hash": "4e84822ecd53fa6ad59c2100f4f7f2666ee74600359339b588a541a64c63f555"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/BoxResource/Pages/ListBoxes.php",
+            "size": 243,
+            "hash": "611ea9a7f26a317998c9ba423c9b4a13caf1ca42418f7dcca2f24bf6574a4941"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/CommonBlockResource/Pages/CreateCommonBlock.php",
+            "size": 277,
+            "hash": "7fcdf5f33d2af39b109031d49d89a9eb1676762f5cb210f00a69f953e7e60938"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/CommonBlockResource/Pages/EditCommonBlock.php",
+            "size": 271,
+            "hash": "c9681b34777eb5916867ae1e56da8f20b5758e71ad152246fde27aad28a9089c"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/CommonBlockResource/Pages/ListCommonBlocks.php",
+            "size": 274,
+            "hash": "4bd3d144c79c151873c7dc6dc1bf7052ce8a06986a331ef8c65a66718f8ebbf0"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/ContactResource/Pages/CreateContact.php",
+            "size": 261,
+            "hash": "08471845151b35187b7c5e8041e18882e4d50c3f04b5ffd2bfd0faeb13313f99"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/ContactResource/Pages/EditContact.php",
+            "size": 255,
+            "hash": "c51ef4fe2266a4176ed33a62a3d0809ac301167159e74e292a4b2cbc0d0c60be"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/ContactResource/Pages/ListContacts.php",
+            "size": 258,
+            "hash": "1e3cd71af32f2cf1dffab3f600809f0bfd76150a72b50eeecb1382f16ce44c86"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/CouponResource/Pages/CreateCoupon.php",
+            "size": 257,
+            "hash": "bad1d24791faa7f2f60ef47ff3029bad3a2f98790a3ef81907996569e7820660"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/CouponResource/Pages/EditCoupon.php",
+            "size": 251,
+            "hash": "89828628ca92c553c2925f78cb8a2d3ff3faf5696d0ddfc6720c3f9b3f251d86"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/CouponResource/Pages/ListCoupons.php",
+            "size": 254,
+            "hash": "129182f32af4198cfb63591c32eb15e77206fcb39946d3075e8782d232c604ab"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/CustomerResource/Pages/CreateCustomer.php",
+            "size": 265,
+            "hash": "0d0096c43f7d34c378e54039b8b2e5575c854fc1a31477031c76d7a6d9297174"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/CustomerResource/Pages/EditCustomer.php",
+            "size": 259,
+            "hash": "b67ca1b67a7875c439f79a1b68a189f60038ce3c8ce4109d7eaa62c0d41b865a"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/CustomerResource/Pages/ListCustomers.php",
+            "size": 262,
+            "hash": "af18adf547119abcc619a76a9d325fb298b97920f7dd8446c3b6e394908bcffb"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/FeatureResource/Pages/CreateFeature.php",
+            "size": 261,
+            "hash": "dce9379eca9fae3d1ae3d29784ef142dfdf754390eb376be2952e2d9574f4bc7"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/FeatureResource/Pages/EditFeature.php",
+            "size": 255,
+            "hash": "e7f21cdd86be2255ae4c50e58db97a7480a8c0d0e3250c32a6b52389874c7657"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/FeatureResource/Pages/ListFeatures.php",
+            "size": 258,
+            "hash": "0f898dc2693a06bcf3f6ada485d81b07893a3fa08a0659d719d4ee1b07cbc6eb"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/HomePageResource/Pages/CreateHomePage.php",
+            "size": 265,
+            "hash": "334307bb1ff6303e249dc2fa98a1026c1eff5853ecf0644707dda91149ad3a53"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/HomePageResource/Pages/EditHomePage.php",
+            "size": 259,
+            "hash": "0cc2dfa4bf12a50e2f85e7f0fe20e06d51b15faf6589778e87a24c118e8a7d64"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/HomePageResource/Pages/ListHomePages.php",
+            "size": 262,
+            "hash": "bbc058d78e092793a960a886c04ba6867a165ec55fd26211b6ce43602e117a87"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/OrderResource/Pages/CreateOrder.php",
+            "size": 253,
+            "hash": "4cc88d577ed097753eb4bfa355b6b848f00a1bd284a0e1498bdebe72272923ac"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/OrderResource/Pages/EditOrder.php",
+            "size": 247,
+            "hash": "5dced71f7e746b9578ba7678f2e1489e627d3928eaefa42fbb97ae9e284ea60c"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/OrderResource/Pages/ListOrders.php",
+            "size": 250,
+            "hash": "1ab877b42f34521040b27d6759be5be87a6fb8ae125dbd8c7c876bbe8b334be0"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/OrderResource/RelationManagers/OrderitemsRelationManager.php",
+            "size": 1270,
+            "hash": "551a33b5a48603d44bc3807d97ac72bf7023a25acd086ea4e21bf305898716ca"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/ProductResource/Pages/CreateProduct.php",
+            "size": 261,
+            "hash": "4af9e107329685747ed7fed789760bfa20a5c9fcc2980bcb4fc3c2ec8573d5bb"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/ProductResource/Pages/EditProduct.php",
+            "size": 255,
+            "hash": "1a72dc00fe707d289cb9d559354580bce1ed056adaaa610a62ad46f9838cd4d2"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/ProductResource/Pages/ListProducts.php",
+            "size": 258,
+            "hash": "6294796d64ac865dff28da3cfe86e1cc4d5cd26ca0dc577160dd28e77f4e68b7"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/SettingResource/Pages/CreateSetting.php",
+            "size": 261,
+            "hash": "ec187bb1d0931d9778864fd6c49290a4a3673b5a0eeb6f2032672298c3037323"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/SettingResource/Pages/EditSetting.php",
+            "size": 255,
+            "hash": "0cb9db9d795f5403fe25329a664fd8e9eb8eefa97dc982663881a6f56a86293b"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/SettingResource/Pages/ListSettings.php",
+            "size": 258,
+            "hash": "3f22e8ca822c34143d1e76f8f8c50fd1c2572ee0379c9864e521e7d593bf7359"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/SocialMediaResource/Pages/CreateSocialMedia.php",
+            "size": 277,
+            "hash": "c892a846b6c627f8ce98d1ce66119d4d9610379b06923129cc9cd2914fb10165"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/SocialMediaResource/Pages/EditSocialMedia.php",
+            "size": 271,
+            "hash": "90e0f4ae26b1902060cd16a5aee404cedecffd144da9d06fbdd7b796065fd764"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/SocialMediaResource/Pages/ListSocialMedia.php",
+            "size": 273,
+            "hash": "54f81bcae40c21dae278a10c004fd7b1acc9407583a065f7344aa6c2e4d4cc1f"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/StepResource/Pages/CreateStep.php",
+            "size": 249,
+            "hash": "3ace0cc5318982a244b7651dfb719aaa4bb4a04921a5531f930310e638ce15fa"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/StepResource/Pages/EditStep.php",
+            "size": 243,
+            "hash": "03e79f0d0a9d2fba8b8d2a7238ac04f0fe352af380f818bef8f1adc0c6858266"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/StepResource/Pages/ListSteps.php",
+            "size": 246,
+            "hash": "58aba368aaaae0c970797a27e5db259d31ec36cd832a3d7d36f46916986fd9e2"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/TestimonialResource/Pages/CreateTestimonial.php",
+            "size": 277,
+            "hash": "b53b744caa323a1f9bd3fcdf7fbde836519255642a39ff0472e0d35fb255e937"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/TestimonialResource/Pages/EditTestimonial.php",
+            "size": 271,
+            "hash": "e655b514743f62c50d8d35ad4cdb84388f8d2b49c314518f2ae78394b01b90d4"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/TestimonialResource/Pages/ListTestimonials.php",
+            "size": 274,
+            "hash": "0d7b36e5008967199b4eae09eb127a229b3325b941ce0f4090ee11a2032e1d24"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/TicketResource/Pages/CreateTicket.php",
+            "size": 257,
+            "hash": "a2714873cc795406254926ed8d621d636761f4c2236ec7b8aa50ef130674d26f"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/TicketResource/Pages/EditTicket.php",
+            "size": 251,
+            "hash": "58f196b2a9635c573d8967f0852227e8c27fa0511081b64562cb6b2926391dee"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/TicketResource/Pages/ListTickets.php",
+            "size": 254,
+            "hash": "6dd11051244f3924facf16657c69d0959b776de23e910daf9bdfde05c6d52657"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/TicketResource/RelationManagers/RepliesRelationManager.php",
+            "size": 1289,
+            "hash": "6d3f09395e8e0727437c30e2138aa72ceb9303b80a6ad36d118660091fc74a24"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/UserResource/Pages/CreateUser.php",
+            "size": 249,
+            "hash": "62b65f95c51a10a6cbbb163397e8447b12039382bda3473c1694f460bb6556b7"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/UserResource/Pages/EditUser.php",
+            "size": 243,
+            "hash": "516a470ccaf94d79bdf074b5ecb63879a98735109e8b05fdf3319a90f122a182"
+        },
+        {
+            "type": "file",
+            "name": "app/Filament/Resources/UserResource/Pages/ListUsers.php",
+            "size": 246,
+            "hash": "99d62592ca7624014a0d04b27901fd0e80d27735ec7d9e6c7edfc38534560066"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/filament/tables/columns/reply.blade.php",
+            "size": 19,
+            "hash": "0152b723aa1750f930d3b46372ab951e1948af2bd8fb929001da90e20bd82df8"
+        }
+    ]
+}
