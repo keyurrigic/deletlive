@@ -62,8 +62,8 @@ class StripeController extends Controller
                     'recurring'=>[
                         'interval'=>'month'
                     ],
-                    //'unit_amount'=>($item->getPriceWithConditions()*100)
-                    'unit_amount'=>(2*100)  //test purpose
+                    'unit_amount'=>($item->getPriceWithConditions()*100)
+                   // 'unit_amount'=>(2*100)  //test purpose
                 ],
                 'quantity'=>$item->quantity
             ];
