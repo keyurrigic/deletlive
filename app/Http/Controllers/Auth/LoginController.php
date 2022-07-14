@@ -39,7 +39,12 @@ class LoginController extends Controller
         if (Auth::guard('customer')->attempt(['email' => $request->email, 'password' => $request->password], $request->get('remember'))) {
             return $this->jsonResponseSuccess();
         }
-        
+        else{
+            return $this->jsonResponseFail(
+                'Invalid Username / Password',
+                 422
+             );
+        }
         //return back()->withInput($request->only('email', 'remember'));
     }
     public function verification(CustomerEmailVerificationRequest $request){
