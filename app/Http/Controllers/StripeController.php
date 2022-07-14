@@ -58,11 +58,12 @@ class StripeController extends Controller
             $subscription_items[]=[
                 'price_data'=>[
                     'currency'=>'USD',
-                    'product'=>'prod_LvbrRr31E07Zmr',
+                    'product'=>'prod_M3RZODNSzqmEQe',
                     'recurring'=>[
                         'interval'=>'month'
                     ],
-                    'unit_amount'=>($item->getPriceWithConditions()*100)
+                    //'unit_amount'=>($item->getPriceWithConditions()*100)
+                    'unit_amount'=>(2*100)  //test purpose
                 ],
                 'quantity'=>$item->quantity
             ];
@@ -88,7 +89,7 @@ class StripeController extends Controller
         $stripe_customer_id=$customer->id;
 
         //now charge customer for deposite 
-        if($deposite_charge > 0 ){
+        /*if($deposite_charge > 0 ){
             try{
                 $charge=$stripe->charges->create([
                     "amount" => $deposite_charge * 100,
@@ -103,7 +104,7 @@ class StripeController extends Controller
                      422
                  );
             }
-        }
+        }*/
        
         //now create a subscription for the customer 
         if(!empty($subscription_items)){
