@@ -58,7 +58,8 @@ class StripeController extends Controller
             $subscription_items[]=[
                 'price_data'=>[
                     'currency'=>'USD',
-                    'product'=>'prod_M3RZODNSzqmEQe',
+                    'product'=>'prod_M3RZODNSzqmEQe',   //production
+                    //'product'=>'prod_LvbrRr31E07Zmr',   //dev
                     'recurring'=>[
                         'interval'=>'month'
                     ],
@@ -70,6 +71,7 @@ class StripeController extends Controller
             
         }
         $order->total=$total;
+        $subscription_amount=$total;
         $order->save();
 
         //now create customer in stripe
@@ -88,24 +90,6 @@ class StripeController extends Controller
         }
         $stripe_customer_id=$customer->id;
 
-        //now charge customer for deposite 
-        /*if($deposite_charge > 0 ){
-            try{
-                $charge=$stripe->charges->create([
-                    "amount" => $deposite_charge * 100,
-                    "currency" => "usd",
-                    "customer"=>$stripe_customer_id,
-                    "description" => "Deposite Charge for Order #".$order_id
-                ]);
-            }
-            catch(Stripe\Exception\InvalidRequestException $e){
-                return $this->jsonResponseFail(
-                    'Issue With Charge',
-                     422
-                 );
-            }
-        }*/
-       
         //now create a subscription for the customer 
         if(!empty($subscription_items)){
             try{
@@ -124,9 +108,10 @@ class StripeController extends Controller
                 $sub->current_period_end=$subscription->current_period_end;
                 $sub->latest_invoice=$subscription->latest_invoice;
                 $sub->subscription_amount=$subscription_amount;
-                $sub->jsonresponse="";
+                $sub->jsonresponse=json_encode($subscription);
                 $sub->save();
                 //Mail::to('infodelete@yopmail.com')->send(new OrderMail($sub));
+                Mail::to($CustomerUser->email)->send(new OrderMail($order));
             }
             catch(Stripe\Exception\InvalidRequestException $e){
                 return $this->jsonResponseFail(
@@ -150,5 +135,11 @@ class StripeController extends Controller
                 return redirect()->intended($invoice->hosted_invoice_url);
             }
         die('Something went wrong');
+    }
+    function SendOrderEmail(){
+        $orderid=46;
+        $order=Order::find($orderid);
+        Mail::to('keyur@yopmail.com')->send(new OrderMail($order));
+        die;
     }
 }

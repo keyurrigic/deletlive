@@ -42,6 +42,7 @@ Route::post('removecouponcode', [CartController::class,'removeCouponCode'])->nam
 Route::get('qtyUpdate', [CartController::class,'qtyUpdate'])->name('cart.qtyUpdate');
 Route::post('remove', [CartController::class, 'removeCart'])->name('cart.remove');
 Route::get('clear', [CartController::class, 'clearAllCart'])->name('cart.clear');
+Route::get('sendtestorderemail', [StripeController::class, 'SendOrderEmail'])->name('sendtestorderemail');
 
 /*Route::get('/cart', function(){
     return view('cart');

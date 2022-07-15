@@ -30,6 +30,6 @@ class OrderMail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.order');
+        return $this->subject('New Order')->markdown('emails.order');
     }
 }
