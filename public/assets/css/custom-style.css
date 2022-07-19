@@ -1892,6 +1892,15 @@ footer .footer-social-media ul li a:hover svg path{
 .contact-bottom .btn-group .btn-outline-primary:hover span{
         border: 1px solid #5271FF;
 }
+.main-header-right a.app-login {
+    margin-right: 0;
+    margin-left: 10px;
+    text-transform: uppercase;
+    background: #5271FF;
+    color: #ffffff;
+    border: 1px solid #5271FF;
+    box-shadow: none;
+}
 @media (min-width: 768px) {
     .amount-homes-inner {
         background: url(../images/wave-bg-top.svg) repeat-x center top,
@@ -1999,6 +2008,28 @@ footer .footer-social-media ul li a:hover svg path{
     .img-thumb-wrapper img {
         margin-bottom: 5px;
     }
+    .main-header-right a.cart,.main-header-right a.login {
+        font-size: 0;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 8px;
+    }
+    
+    .main-header-right a.cart i,.main-header-right a.login i{
+        font-size: 16px;
+    }
+    .main-header-right a.login{
+        margin-left: 0;
+    }
+    .main-header-right a.app-login{
+        height: 32px;
+        width: 32px;
+    }
+     .main-header-right a.app-login i{
+        margin: 0;
+     }
 }
 
 @media (min-width: 576px) {
@@ -2051,16 +2082,9 @@ footer .footer-social-media ul li a:hover svg path{
     .main-header-right a.cart {
         margin-right: 15px;
     }
-    .main-header-right a.cart {
-        font-size: 0;
-        border: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 8px;
-    }
-    .main-header-right a.cart i{
-        font-size: 16px;
+
+    .main-header-right a i{
+        margin-right: 0px;
     }
     .cart-has-item{
             left: 22px;
@@ -2205,6 +2229,15 @@ footer .footer-social-media ul li a:hover svg path{
         width: 100%;
         margin: 5px;
     }
+    .contact-bottom .btn-group{
+            flex-direction: column;
+    }
+    .contact-bottom .btn-group .btn-outline-primary{
+        text-align: left;
+    }
+     .contact-bottom .btn-group .btn-outline-primary span{
+        text-align: center;
+     }
 }
 
 .modal-dialog {
