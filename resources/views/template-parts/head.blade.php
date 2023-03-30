@@ -34,14 +34,14 @@
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> 
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <!--script async src="https://www.googletagmanager.com/gtag/js?id=G-VL2KZQQ1BZ"></script> 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S071TW7JMX"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-VL2KZQQ1BZ');
-</script-->
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-S071TW7JMX');
+</script>
   <script>
     var ajaxCallURL="{{ url('/') }}";
     </script>

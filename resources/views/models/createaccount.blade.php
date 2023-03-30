@@ -47,7 +47,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <h6 class="follow-instruction">Pelease check your email and click on the verification link.</h6>
+                <h6 class="follow-instruction">Please check your email and click on the verification link.</h6>
             </div>
             <div class="modal-footer bg-none">
                 <button type="button" class="btn-blue ms-auto" data-bs-dismiss="modal">OK</button>

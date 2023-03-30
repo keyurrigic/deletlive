@@ -236,9 +236,16 @@
                                 <label for="cvv" class="form-label">CVV</label>
                                 <input type="text" name="confirmpassword" class="form-control mb-0 card-cvc" id="cvv" placeholder="" size='4' value="" required>
                             </div>
-                        </div>
-                    </div>
-                </div>
+			</div>
+		    </div>
+			<div class="row">
+                	        <div class="col-md-12">
+                                <div class="form-group">
+                                        <input type="checkbox" name="agree" id="agree" value="yes" class=""/> I agree to the <a href="/delet-terms.pdf" target="_blank">terms and conditions</a>
+                                </div>
+        	                </div>
+	                </div>
+		</div>
                 <div class="modal-footer">
                     <button type="button" id="btnsubmitpayment" class="btn-blue w-100">PAY NOW</button>
                 </div>
@@ -319,7 +326,11 @@
 
         $("#btnsubmitpayment").click(function() {
             //now call ajax here 
-            $("#btnsubmitpayment").html('<i class="fa fa-refresh fa-spin"></i>');
+		if (!$('#agree').is(':checked')) {	
+			alert("Please agree to the terms and conditions");
+			return false;
+		}
+	    $("#btnsubmitpayment").html('<i class="fa fa-refresh fa-spin"></i>');
             $("#btnsubmitpayment").prop('disabled', true);
 
             Stripe.setPublishableKey($("#payment-form").data('stripe-publishable-key'));

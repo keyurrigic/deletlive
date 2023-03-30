@@ -17,7 +17,7 @@
             <div class="container">
                 <div class="row justify-content-md-center align-items-end">
                     <?php $cnt = 1; ?>
-                    <?php foreach ($products as $product) { ?>
+                    <?php foreach ($products as $product) { if($cnt!=3){ $cnt++; continue; } ?>
                         <?php /*if($product->frquency == "Yearly") { ?>
                                 <div class="col-md-6 col-lg-4">
                                     <div class="pricing-table agency">
@@ -75,9 +75,9 @@
                             <?php } */ ?>
                         <div class="col-md-6 col-lg-4">
                             <div class="pricing-table agency main-pricing-table-<?php echo $cnt; ?>">
-                                <div class="pricing-table-head pricing-table-<?php echo $cnt; ?>">
+                                <!--div class="pricing-table-head pricing-table-<?php echo $cnt; ?>">
                                     <h2>{{$product->subtitle}}</h2>
-                                </div>
+                                </div-->
                                 <div class="pricing-table-body">
                                     <div class="price"><sup>$</sup>{{$product->price}}<sup class="color-blue montly-sup">/<?php if ($product->frquency == "Monthly") echo "month"; ?></sup></div>
                                     <?php if ($cnt == 3) { ?>
