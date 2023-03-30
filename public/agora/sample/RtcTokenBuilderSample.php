@@ -41,7 +41,7 @@ $response=[
 ];
 
 //here now we need to check if there is a property and fcm token is available or not...
-$mysqli = new mysqli("localhost","ubwg3unggoxrg","p796pffenz6m","dbtlldrxygdqkn");
+$mysqli = new mysqli("localhost","delet_laravel","VfHDJCUPfGpB","delet_laravel");
 $sql="select * from fcmtokens where propertyid='".$serialno."' order by id desc limit 0,1";
 $result = $mysqli->query($sql);
 $notification=null;

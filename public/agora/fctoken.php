@@ -10,7 +10,7 @@ $fcmtoken=$data['fcmtoken'];
 if(empty($propertyid) || empty($fcmtoken) )
     exit;
 //now check with the database
-$mysqli = new mysqli("localhost","ubwg3unggoxrg","p796pffenz6m","dbtlldrxygdqkn");
+$mysqli = new mysqli("localhost","delet_laravel","VfHDJCUPfGpB","delet_laravel");
 // Check connection
 if ($mysqli->connect_errno) {
     $response=[
