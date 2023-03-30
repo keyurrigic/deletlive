@@ -21,7 +21,7 @@ if(!empty($propertyid) && !empty($email) && !empty($address)){
 
     $to = $email;
     $subject = "Buzzer request at ".$address;
-    $link="http://34.172.5.128:4000/#!/property/view/".$propertyid;
+    $link="https://app.delet.com/#!/property/view/".$propertyid;
 
     $message = "<p>A buzzer request was just made on the application.</p>
     <p>Property Link: <a href='".$link."'>".$link."</a></p>
