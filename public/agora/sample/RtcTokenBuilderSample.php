@@ -35,7 +35,7 @@ $response=[
     'userId'=>$userID,
     'agiraToken'=>$token,
     'appId'=>$appID,
-    'webUrl'=>"https://rigicgspl.com/agora/deletdevcall.php?token=".urlencode($token)."&channel=$channelName&uid=$userID",
+    'webUrl'=>"https://delet.com/agora/deletdevcall.php?token=".urlencode($token)."&channel=$channelName&uid=$userID",
     'fcm'=>null,
     'fcmtoken'=>null,
 ];
