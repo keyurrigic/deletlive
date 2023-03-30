@@ -1,0 +1,11 @@
+[06-Mar-2023 10:49:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function addPrivilege() on null in /home/customer/www/rigicgspl.com/public_html/agora/src/RtcTokenBuilder.php:45
+Stack trace:
+#0 /home/customer/www/rigicgspl.com/public_html/agora/src/RtcTokenBuilder.php(27): RtcTokenBuilder::buildTokenWithUserAccount(NULL, '2d62176933ea492...', '7d72365eb983485...', 555555555, 0, 1678103371)
+#1 /home/customer/www/rigicgspl.com/public_html/agora/sample/RtcTokenBuilderSample.php(19): RtcTokenBuilder::buildTokenWithUid(NULL, '2d62176933ea492...', '7d72365eb983485...', 555555555, 0, 1678103371)
+#2 {main}
+  thrown in /home/customer/www/rigicgspl.com/public_html/agora/src/RtcTokenBuilder.php on line 45
+[25-Mar-2023 06:45:31 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ']' in /home/customer/www/rigicgspl.com/public_html/agora/sample/RtcTokenBuilderSample.php on line 60
+[25-Mar-2023 06:48:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function endFCMNotification() in /home/customer/www/rigicgspl.com/public_html/agora/sample/RtcTokenBuilderSample.php:66
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/rigicgspl.com/public_html/agora/sample/RtcTokenBuilderSample.php on line 66
