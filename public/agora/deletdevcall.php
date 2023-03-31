@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="height:calc(100% - 10px)">
 
 <head>
   <meta charset="UTF-8">
@@ -17,8 +17,11 @@
     left: 15px;
     bottom: 15px;
 }
+#player-wrapper-1,.player{
+  height:100%
+}
 </style>
-<body style="background-color:#495057;">    <!--
+<body style="background-color:#495057;height:100%">    <!--
   This page interacts with the Agora Voice Call for Web Next Generation SDK to easily create Video Call
   functionality in a Web page.
 
@@ -80,7 +83,7 @@
     </button>
   </div-->
 
-  <div class="container" style="max-width:100% !important">
+  <div class="container" style="max-width:100% !important;height: 100%;">
     <!--
     Input fields so the user can securely join a Video Call channel.
   -->
@@ -182,14 +185,14 @@
     <!--
     This local media splayer is enabled when the user has successfully joined a Video Call channel.
   -->
-    <div class="row video-group">
-      <div class="mini-screen">
+    <div class="row video-group" style="height: 100%;">
+      <div class="mini-screen" >
         <p id="local-player-name" class="player-name"></p>
         <div id="local-player" class="player" style="width:220px;height:220px"></div>
       </div>
       <!--div class="w-100"></div-->
-      <div class="col-sm-12">
-        <div id="remote-playerlist"></div>
+      <div class="col-sm-12" style="height: 100%;">
+        <div id="remote-playerlist" style="height: 100%;"></div>
       </div>
     </div>
   </div>
