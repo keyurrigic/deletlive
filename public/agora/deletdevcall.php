@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="height:calc(100% - 10px)">
+<html lang="en" style="height:100%">
 
 <head>
   <meta charset="UTF-8">
@@ -87,7 +87,7 @@
     <!--
     Input fields so the user can securely join a Video Call channel.
   -->
-    <form id="join-form">
+    <form id="join-form" style="margin-top:0px">
       <div class="row join-info-group" style="display:none">
         <div class="col-sm sso-hidden">
           <p class="join-info-text">APP ID</p>
@@ -191,7 +191,7 @@
         <div id="local-player" class="player" style="width:220px;height:220px"></div>
       </div>
       <!--div class="w-100"></div-->
-      <div class="col-sm-12" style="height: 100%;">
+      <div class="col-sm-12" style="height: 100%;padding:0px">
         <div id="remote-playerlist" style="height: 100%;"></div>
       </div>
     </div>
