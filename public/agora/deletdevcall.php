@@ -209,6 +209,11 @@
       $("#join").click();
     });
   </script>
+<script>
+  window.addEventListener('message', function(event) {
+    document.getElementById("leave").click();
+  });
+</script>
 </body>
 
 </html>
