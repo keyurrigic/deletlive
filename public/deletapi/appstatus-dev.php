@@ -90,13 +90,14 @@ $collection = $db->properties;
 //1. find the hardware 
 //$properties = $collection->findOne(['_id' => $property_id]);
 $pingtime=time();
-$collection->updateOne(['_id' => $property_id], ['$set' => ['lastPing' => $pingtime]]);   
+//$collection->updateOne(['_id' => $property_id], ['$set' => ['lastPing' => $pingtime]]);   
+$properties = $collection->findOneAndUpdate(['_id' => $property_id],[ '$set' => [ 'lastPing' => $pingtime ]]);
 
 $data=array(
     'success'=>true,
     'lastPing'=>$pingtime,
-    /*'user'=>$users,
-    'property'=>$properties*/
+    /*'user'=>$users,*/
+    'property'=>$properties
 );
 header('Content-Type: application/json; charset=utf-8');
 echo json_encode($data);
