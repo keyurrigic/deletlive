@@ -97,7 +97,7 @@ $data=array(
     'success'=>true,
     'lastPing'=>$pingtime,
     /*'user'=>$users,*/
-    'property'=>$properties
+    /*'property'=>$properties*/
 );
 header('Content-Type: application/json; charset=utf-8');
 echo json_encode($data);
