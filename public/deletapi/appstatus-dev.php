@@ -91,7 +91,7 @@ $collection = $db->properties;
 //$properties = $collection->findOne(['_id' => $property_id]);
 $pingtime=time();
 //$collection->updateOne(['_id' => $property_id], ['$set' => ['lastPing' => $pingtime]]);   
-$properties = $collection->findOneAndUpdate(['_id' => $property_id],[ '$set' => [ 'lastPing' => $pingtime ]]);
+$properties = $collection->findOneAndUpdate(['_id' => $property_id],[ '$set' => [ 'lastPing' => ($pingtime*1000) ]]);
 
 $data=array(
     'success'=>true,
