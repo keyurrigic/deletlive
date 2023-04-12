@@ -30,7 +30,7 @@ if(empty($data->serialno))
 );*/
 /* live */
 $client = new MongoDB\Client(
-    'mongodb+srv://dov:7F76fgn4qK1b6qGS@clusterdeletmvp.avbxw.mongodb.net/delet-mvp'
+    'mongodb+srv://info:H4Pg1xBPQzZXlU1h@test-env-server-db.2bysx9q.mongodb.net/delet-mvp'
 );
 
 $db = $client->{'delet-mvp'};
