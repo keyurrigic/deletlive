@@ -40,6 +40,8 @@ var App = (function () {
   };
 })();
 
+
+
 $(document).ready(function () {
   App.init();
 });
@@ -486,3 +488,25 @@ $(document).ready(function () {
 
   /* forgot password validation */
 });
+
+$('.company-logo-slider').owlCarousel({
+  loop: true,
+  responsiveClass: true,
+  autoplay: true,
+  autoplayHoverPause: true,
+  responsive: {
+    0: {
+      items: 1,
+      nav: true
+    },
+    600: {
+      items: 3,
+      nav: false
+    },
+    1000: {
+      items: 4,
+      nav: true,
+      loop: false
+    }
+  }
+})
