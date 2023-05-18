@@ -6,7 +6,8 @@ error_reporting(E_ERROR);
 require_once 'vendor/autoload.php';
 
 // Takes raw data from the request
-$json = file_get_contents('php://input');
+//print_r($_REQUEST);
+$json=file_get_contents('php://input');
 if(empty($json))
 {
     $data = array('success'=>false,"message"=>"Please enter Serial Number");
